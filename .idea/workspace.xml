@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="" />
+    <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/lab01/.ok_history" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab01/.ok_history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/lab01/.ok_storage.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab01/.ok_storage.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/lab01/.ok_storage.dir" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab01/.ok_storage.dir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/lab01/lab01_extra.py" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab01/lab01_extra.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/lab01/tests/truthiness.py" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab01/tests/truthiness.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/lab01/tests/what_if.py" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab01/tests/what_if.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lab01.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Labs/lab01/lab01.py">
+      <file leaf-file-name="lab01_extra.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Labs/lab01/lab01_extra.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="655">
-              <caret line="69" column="7" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+            <state relative-caret-position="378">
+              <caret line="95" column="10" lean-forward="true" selection-start-line="95" selection-start-column="10" selection-end-line="95" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -40,6 +51,7 @@
         <option value="$PROJECT_DIR$/Homework/hw01/hw01.py" />
         <option value="$PROJECT_DIR$/Week 2/Examples.py" />
         <option value="$PROJECT_DIR$/Labs/lab01/lab01.py" />
+        <option value="$PROJECT_DIR$/Labs/lab01/lab01_extra.py" />
       </list>
     </option>
   </component>
@@ -84,6 +96,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -189,7 +202,21 @@
       <option name="project" value="LOCAL" />
       <updated>1527609547216</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="working on the Lab01 questions">
+      <created>1527693073451</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1527693073451</updated>
+    </task>
+    <task id="LOCAL-00004" summary="working on the Lab01 questions">
+      <created>1527693079557</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1527693079557</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -213,9 +240,11 @@
     <frame x="953" y="30" width="974" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21367522" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21367522" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32861805" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.3297062" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3297062" />
       <window_info anchor="bottom" x="44" y="392" width="919" height="1048" id="Python Console" order="10" show_stripe_button="false" type="FLOATING" weight="0.29926237" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32946634" />
@@ -229,7 +258,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -237,7 +265,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Understanding how higher order functions actually mean and work, update the comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Understanding how higher order functions actually mean and work, update the comments" />
+    <MESSAGE value="working on the Lab01 questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on the Lab01 questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -323,8 +352,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Labs/lab01/lab01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="69" column="7" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+        <state relative-caret-position="565">
+          <caret line="67" column="31" lean-forward="true" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/lab01/lab01_extra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="95" column="10" lean-forward="true" selection-start-line="95" selection-start-column="10" selection-end-line="95" selection-end-column="10" />
         </state>
       </provider>
     </entry>
