@@ -113,6 +113,12 @@ def guess_linear():
     num_guesses = 1
     guess = LOWER
     "*** YOUR CODE HERE ***"
+    correct = False
+    guess = 0
+    while not correct and guess <= UPPER:
+        guess += 1
+        correct = is_correct(guess)
+        num_guesses += 1
     return num_guesses
 
 
@@ -129,6 +135,16 @@ def guess_binary():
     lower, upper = LOWER, UPPER
     guess = (lower + upper) // 2
     "*** YOUR CODE HERE ***"
+    correct = False
+    while not correct:
+        num_guesses += 1
+        correct = is_correct(guess)
+        if not correct:
+            if not is_too_high(guess):
+                lower = guess + 1
+            else:
+                upper = guess - 1
+            guess = (lower + upper) // 2
     return num_guesses
 
 
