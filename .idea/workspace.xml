@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Homework/hw02/construct_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/hw02/hw02.ok" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/hw02/hw02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/hw02/ok" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/lab01/lab01_extra.py" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab01/lab01_extra.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lab01_extra.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Labs/lab01/lab01_extra.py">
+      <file leaf-file-name="hw02.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Homework/hw02/hw02.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="139" column="23" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
+            <state relative-caret-position="306">
+              <caret line="50" column="56" lean-forward="true" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -47,14 +50,14 @@
         <option value="$PROJECT_DIR$/Week 2/Examples.py" />
         <option value="$PROJECT_DIR$/Labs/lab01/lab01.py" />
         <option value="$PROJECT_DIR$/Labs/lab01/lab01_extra.py" />
+        <option value="$PROJECT_DIR$/Homework/hw02/hw02.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="y" value="30" />
-    <option name="width" value="974" />
-    <option name="height" value="1057" />
+    <option name="x" value="882" />
+    <option name="width" value="960" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -75,13 +78,13 @@
             <path>
               <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
               <item name="Structure-and-Interpretation-of-Computer-Programs" type="462c0819:PsiDirectoryNode" />
-              <item name="Labs" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
               <item name="Structure-and-Interpretation-of-Computer-Programs" type="462c0819:PsiDirectoryNode" />
-              <item name="Labs" type="462c0819:PsiDirectoryNode" />
-              <item name="lab01" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework" type="462c0819:PsiDirectoryNode" />
+              <item name="hw02" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -218,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527695145906</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="working on the Lab01 questions">
+      <created>1527782713216</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1527782713216</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -239,14 +249,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="30" width="974" height="1057" extended-state="0" />
+    <frame x="882" y="0" width="960" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21367522" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21691974" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32861805" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.3297062" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3297062" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3297062" />
       <window_info anchor="bottom" x="44" y="392" width="919" height="1048" id="Python Console" order="10" show_stripe_button="false" type="FLOATING" weight="0.29926237" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32946634" />
@@ -257,9 +265,11 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.3297062" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -276,6 +286,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Labs/lab01/lab01_extra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2502">
+          <caret line="139" column="23" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/lab01/lab01_extra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2502">
+          <caret line="139" column="23" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Week 2/Examples.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -361,8 +385,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Labs/lab01/lab01_extra.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
+        <state relative-caret-position="130">
           <caret line="139" column="23" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework/hw02/hw02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="50" column="56" lean-forward="true" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
         </state>
       </provider>
     </entry>
