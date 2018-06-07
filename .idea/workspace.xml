@@ -4,13 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Homework/hw02/construct_check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework/hw02/hw02.ok" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework/hw02/hw02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework/hw02/ok" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hw02.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Homework/hw02/hw02.py">
+      <file leaf-file-name="extra01.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Homework/extra01/extra01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="50" column="56" lean-forward="true" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+            <state relative-caret-position="756">
+              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
             </state>
           </provider>
         </entry>
@@ -51,13 +45,14 @@
         <option value="$PROJECT_DIR$/Labs/lab01/lab01.py" />
         <option value="$PROJECT_DIR$/Labs/lab01/lab01_extra.py" />
         <option value="$PROJECT_DIR$/Homework/hw02/hw02.py" />
+        <option value="$PROJECT_DIR$/Homework/extra01/extra01.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="882" />
-    <option name="width" value="960" />
-    <option name="height" value="1050" />
+    <option name="x" value="914" />
+    <option name="width" value="935" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -79,6 +74,12 @@
               <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
               <item name="Structure-and-Interpretation-of-Computer-Programs" type="462c0819:PsiDirectoryNode" />
               <item name="Homework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Structure-and-Interpretation-of-Computer-Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework" type="462c0819:PsiDirectoryNode" />
+              <item name="extra01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
@@ -249,10 +250,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="882" y="0" width="960" height="1050" extended-state="0" />
+    <frame x="914" y="0" width="935" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21691974" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22296543" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32861805" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3297062" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3297062" />
@@ -393,7 +394,14 @@
     <entry file="file://$PROJECT_DIR$/Homework/hw02/hw02.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="50" column="56" lean-forward="true" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+          <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework/extra01/extra01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>
