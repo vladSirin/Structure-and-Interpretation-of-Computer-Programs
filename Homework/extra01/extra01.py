@@ -1,6 +1,8 @@
 ##################################
 # Newton's method (from lecture) #
 ##################################
+from doctest import run_docstring_examples
+
 
 
 def improve(update, close, guess=1, max_updates=100):
@@ -52,6 +54,7 @@ def nth_root_of_a(n, a):
 # Questions #
 #############
 
+
 def intersect(f, df, g, dg):
     """Return where f with derivative df intersects g with derivative dg.
 
@@ -62,10 +65,14 @@ def intersect(f, df, g, dg):
     """
     "*** YOUR CODE HERE ***"
 
-    def fg_equal(x):
-        return approx_eq(f(x), g(x))
+    def fg(f, g):
 
-    return improve(newton_update(f, df), fg_equal)
+        def unite(x):
+            return f(x) - g(x)
+
+        return unite
+
+    return find_zero(fg(f, g), fg(df, dg))
 
 
 from functools import lru_cache
@@ -115,3 +122,6 @@ def roll_at_least_ones(total, n, dice):
 @memoize
 def roll_at_least_no_ones(total, n, dice):
     "*** YOUR CODE HERE ***"
+
+
+run_docstring_examples(intersect, globals(), True)
