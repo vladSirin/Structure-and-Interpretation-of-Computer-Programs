@@ -4,7 +4,9 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="" />
+    <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +16,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="extra01.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Homework/extra01/extra01.py">
+      <file leaf-file-name="hog.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Projects/hog/hog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="258">
+              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+              <folding>
+                <element signature="e#195#217#0" />
+                <element signature="e#313#1090#0" />
+                <element signature="e#312#600#1" />
+                <element signature="e#1155#1443#0" />
+                <element signature="e#896#1008#1" />
+                <element signature="e#1526#2366#0" />
+                <element signature="e#1195#1534#1" />
+                <element signature="e#2428#2792#0" />
+                <element signature="e#2152#2293#0" />
+                <element signature="e#2152#2271#1" />
+                <element signature="e#2329#2385#0" />
+                <element signature="e#2499#3295#1" />
+                <element signature="e#3475#3498#0" />
+                <element signature="e#3585#3746#0" />
+                <element signature="e#3801#4490#0" />
+                <element signature="e#3801#4121#1" />
+                <element signature="e#4159#4475#0" />
+                <element signature="e#4512#5078#0" />
+                <element signature="e#4512#4976#1" />
+                <element signature="e#5014#5063#0" />
+                <element signature="e#5147#5950#0" />
+                <element signature="e#5147#5801#1" />
+                <element signature="e#5953#5976#0" />
+                <element signature="e#6051#6487#0" />
+                <element signature="e#6051#6409#1" />
+                <element signature="e#6459#6467#0" />
+                <element signature="e#6535#6960#0" />
+                <element signature="e#6535#6889#1" />
+                <element signature="e#7028#7396#0" />
+                <element signature="e#7028#7325#1" />
+                <element signature="e#7437#7621#0" />
+                <element signature="e#7685#8034#0" />
+                <element signature="e#7685#7830#1" />
+                <element signature="e#8064#8916#0" />
+                <element signature="e#8207#8329#0" />
+                <element signature="e#8989#9182#0" />
+                <element signature="e#8989#9099#1" />
+                <element signature="e#9254#9506#0" />
+                <element signature="e#9254#9423#1" />
+                <element signature="e#9556#9734#0" />
+                <element signature="e#9556#9651#1" />
+                <element signature="e#9737#9763#0" />
+                <element signature="e#9969#10428#0" />
+                <element signature="e#9969#10129#1" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dice.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Projects/hog/dice.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#498#1" />
+                <element signature="e#559#756#0" />
+                <element signature="e#717#740#0" />
+                <element signature="e#855#1568#0" />
+                <element signature="e#855#1232#1" />
+                <element signature="e#1463#1552#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,6 +111,8 @@
         <option value="$PROJECT_DIR$/Labs/lab01/lab01_extra.py" />
         <option value="$PROJECT_DIR$/Homework/hw02/hw02.py" />
         <option value="$PROJECT_DIR$/Homework/extra01/extra01.py" />
+        <option value="$PROJECT_DIR$/Projects/hog/dice.py" />
+        <option value="$PROJECT_DIR$/Projects/hog/hog.py" />
       </list>
     </option>
   </component>
@@ -87,6 +154,17 @@
               <item name="Homework" type="462c0819:PsiDirectoryNode" />
               <item name="hw02" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Structure-and-Interpretation-of-Computer-Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Structure-and-Interpretation-of-Computer-Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+              <item name="hog" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -110,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Examples">
+  <component name="RunManager" selected="Python tests.Doctests in extra01">
     <configuration name="Examples" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Structure-and-Interpretation-of-Computer-Programs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,6 +224,23 @@
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
     </configuration>
+    <configuration name="Doctests in extra01" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="Structure-and-Interpretation-of-Computer-Programs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Homework/extra01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Homework/extra01/extra01.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+    </configuration>
     <configuration name="Doctests in hw01" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="Structure-and-Interpretation-of-Computer-Programs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,9 +262,11 @@
       <item itemvalue="Python tests.Doctests in hw01" />
       <item itemvalue="Python tests.Doctest two_of_three" />
       <item itemvalue="Python.Examples" />
+      <item itemvalue="Python tests.Doctests in extra01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Doctests in extra01" />
         <item itemvalue="Python.Examples" />
         <item itemvalue="Python tests.Doctest two_of_three" />
         <item itemvalue="Python tests.Doctests in hw01" />
@@ -229,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527782713216</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fix the wrong function for newton update working on a f(x) = g(x) situation.">
+      <created>1528468274070</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1528468274070</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -238,6 +342,15 @@
     </history-entry>
     <history-entry file="Doctest_two_of_three - 2018.05.28 at 22h 13m 52s.xml">
       <configuration name="Doctest two_of_three" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_extra01 - 2018.06.08 at 22h 10m 10s.xml">
+      <configuration name="Doctests in extra01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_extra01 - 2018.06.08 at 22h 20m 21s.xml">
+      <configuration name="Doctests in extra01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_extra01 - 2018.06.08 at 22h 30m 16s.xml">
+      <configuration name="Doctests in extra01" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -258,11 +371,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3297062" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3297062" />
       <window_info anchor="bottom" x="44" y="392" width="919" height="1048" id="Python Console" order="10" show_stripe_button="false" type="FLOATING" weight="0.29926237" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32946634" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32752994" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934713" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39831403" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -279,14 +392,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Understanding how higher order functions actually mean and work, update the comments" />
     <MESSAGE value="working on the Lab01 questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on the Lab01 questions" />
+    <MESSAGE value="Fix the wrong function for newton update working on a f(x) = g(x) situation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix the wrong function for newton update working on a f(x) = g(x) situation." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Homework/extra01/extra01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="63" column="7" lean-forward="true" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Labs/lab01/lab01_extra.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2502">
@@ -400,8 +521,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Homework/extra01/extra01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="427">
+          <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/hog/dice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#498#1" />
+            <element signature="e#559#756#0" />
+            <element signature="e#717#740#0" />
+            <element signature="e#855#1568#0" />
+            <element signature="e#855#1232#1" />
+            <element signature="e#1463#1552#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/hog/hog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+          <folding>
+            <element signature="e#195#217#0" />
+            <element signature="e#313#1090#0" />
+            <element signature="e#312#600#1" />
+            <element signature="e#1155#1443#0" />
+            <element signature="e#896#1008#1" />
+            <element signature="e#1526#2366#0" />
+            <element signature="e#1195#1534#1" />
+            <element signature="e#2428#2792#0" />
+            <element signature="e#2152#2293#0" />
+            <element signature="e#2152#2271#1" />
+            <element signature="e#2329#2385#0" />
+            <element signature="e#2499#3295#1" />
+            <element signature="e#3475#3498#0" />
+            <element signature="e#3585#3746#0" />
+            <element signature="e#3801#4490#0" />
+            <element signature="e#3801#4121#1" />
+            <element signature="e#4159#4475#0" />
+            <element signature="e#4512#5078#0" />
+            <element signature="e#4512#4976#1" />
+            <element signature="e#5014#5063#0" />
+            <element signature="e#5147#5950#0" />
+            <element signature="e#5147#5801#1" />
+            <element signature="e#5953#5976#0" />
+            <element signature="e#6051#6487#0" />
+            <element signature="e#6051#6409#1" />
+            <element signature="e#6459#6467#0" />
+            <element signature="e#6535#6960#0" />
+            <element signature="e#6535#6889#1" />
+            <element signature="e#7028#7396#0" />
+            <element signature="e#7028#7325#1" />
+            <element signature="e#7437#7621#0" />
+            <element signature="e#7685#8034#0" />
+            <element signature="e#7685#7830#1" />
+            <element signature="e#8064#8916#0" />
+            <element signature="e#8207#8329#0" />
+            <element signature="e#8989#9182#0" />
+            <element signature="e#8989#9099#1" />
+            <element signature="e#9254#9506#0" />
+            <element signature="e#9254#9423#1" />
+            <element signature="e#9556#9734#0" />
+            <element signature="e#9556#9651#1" />
+            <element signature="e#9737#9763#0" />
+            <element signature="e#9969#10428#0" />
+            <element signature="e#9969#10129#1" />
+          </folding>
         </state>
       </provider>
     </entry>
