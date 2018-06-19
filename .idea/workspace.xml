@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Structure-and-Interpretation-of-Computer-Programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Structure-and-Interpretation-of-Computer-Programs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/hog/.ok_history" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/.ok_history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/hog/.ok_storage.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/.ok_storage.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/hog/.ok_storage.dir" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/.ok_storage.dir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/hog/hog.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/hog.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,17 +24,13 @@
       <file leaf-file-name="hog.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Projects/hog/hog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+            <state relative-caret-position="36">
+              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
               <folding>
-                <element signature="e#195#217#0" />
-                <element signature="e#313#1090#0" />
                 <element signature="e#312#600#1" />
                 <element signature="e#1155#1443#0" />
                 <element signature="e#896#1008#1" />
-                <element signature="e#1526#2366#0" />
                 <element signature="e#1195#1534#1" />
-                <element signature="e#2428#2792#0" />
                 <element signature="e#2152#2293#0" />
                 <element signature="e#2152#2271#1" />
                 <element signature="e#2329#2385#0" />
@@ -188,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Doctests in extra01">
+  <component name="RunManager" selected="Python.hog">
     <configuration name="Examples" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Structure-and-Interpretation-of-Computer-Programs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,6 +203,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week 2/Examples.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="hog" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Structure-and-Interpretation-of-Computer-Programs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Projects/hog" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Projects/hog/hog.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -263,9 +282,11 @@
       <item itemvalue="Python tests.Doctest two_of_three" />
       <item itemvalue="Python.Examples" />
       <item itemvalue="Python tests.Doctests in extra01" />
+      <item itemvalue="Python.hog" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hog" />
         <item itemvalue="Python tests.Doctests in extra01" />
         <item itemvalue="Python.Examples" />
         <item itemvalue="Python tests.Doctest two_of_three" />
@@ -333,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528468274070</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Doing the project hog, wip">
+      <created>1529075839437</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1529075839437</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -393,11 +421,12 @@
     <MESSAGE value="Understanding how higher order functions actually mean and work, update the comments" />
     <MESSAGE value="working on the Lab01 questions" />
     <MESSAGE value="Fix the wrong function for newton update working on a f(x) = g(x) situation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix the wrong function for newton update working on a f(x) = g(x) situation." />
+    <MESSAGE value="Doing the project hog, wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="Doing the project hog, wip" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -526,6 +555,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/hog/tests/play_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Projects/hog/dice.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -543,17 +581,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Projects/hog/hog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+        <state relative-caret-position="36">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
           <folding>
-            <element signature="e#195#217#0" />
-            <element signature="e#313#1090#0" />
             <element signature="e#312#600#1" />
             <element signature="e#1155#1443#0" />
             <element signature="e#896#1008#1" />
-            <element signature="e#1526#2366#0" />
             <element signature="e#1195#1534#1" />
-            <element signature="e#2428#2792#0" />
             <element signature="e#2152#2293#0" />
             <element signature="e#2152#2271#1" />
             <element signature="e#2329#2385#0" />

@@ -1,7 +1,7 @@
 """CS 61A Presents The Game of Hog."""
 
-from dice import six_sided, four_sided, make_test_dice
-from ucb import main, trace, interact
+from dice import four_sided, six_sided, make_test_dice
+from ucb import main
 
 GOAL_SCORE = 100  # The goal of Hog is to score 100 points.
 
@@ -133,19 +133,16 @@ def play(strategy0, strategy1, score0=0, score1=0, dice=six_sided,
                 score0 += free_bacon(score1)
             else:
                 score0 += take_turn(num_roll, score1, dice)
-                if is_swap(score0, score1):
-                    score0, score1 = score1, score0
         if player == 1:
             num_roll = strategy1(score1, score0)
+            # print(num_roll)
             if num_roll == 0:
-                score1 = free_bacon(score0)
+                score1 += free_bacon(score0)
             else:
                 score1 += take_turn(num_roll, score0, dice)
-                if is_swap(score0, score1):
-                    score0, score1 = score1, score0
+        if is_swap(score0, score1):
+            score0, score1 = score1, score0
         player = other(player)
-
-
     # END PROBLEM 5
     return score0, score1
 
