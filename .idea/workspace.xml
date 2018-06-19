@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Structure-and-Interpretation-of-Computer-Programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Structure-and-Interpretation-of-Computer-Programs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/hog/.ok_history" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/.ok_history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/hog/.ok_storage.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/.ok_storage.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/hog/.ok_storage.dir" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/.ok_storage.dir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/hog/hog.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/hog.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,9 +19,10 @@
       <file leaf-file-name="hog.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Projects/hog/hog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="630">
+              <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
               <folding>
+                <element signature="e#40#94#0" expanded="true" />
                 <element signature="e#312#600#1" />
                 <element signature="e#1155#1443#0" />
                 <element signature="e#896#1008#1" />
@@ -361,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529075839437</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Doing the project hog, wip">
+      <created>1529417432025</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1529417432025</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -581,9 +584,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Projects/hog/hog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="630">
+          <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
           <folding>
+            <element signature="e#40#94#0" expanded="true" />
             <element signature="e#312#600#1" />
             <element signature="e#1155#1443#0" />
             <element signature="e#896#1008#1" />
