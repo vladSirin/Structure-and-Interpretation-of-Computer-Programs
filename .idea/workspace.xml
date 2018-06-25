@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/hog/.ok_history" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/.ok_history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/hog/.ok_storage.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/.ok_storage.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/hog/.ok_storage.dir" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/.ok_storage.dir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/hog/hog.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/hog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/hog/tests/06.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/tests/06.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +19,8 @@
       <file leaf-file-name="hog.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Projects/hog/hog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="231" column="34" selection-start-line="231" selection-start-column="34" selection-end-line="231" selection-end-column="34" />
+            <state relative-caret-position="215">
+              <caret line="227" column="20" selection-start-line="227" selection-start-column="20" selection-end-line="227" selection-end-column="20" />
               <folding>
                 <element signature="e#40#94#0" expanded="true" />
                 <element signature="e#312#600#1" />
@@ -43,6 +38,8 @@
                 <element signature="e#4512#5078#0" />
                 <element signature="e#4512#4976#1" />
                 <element signature="e#5014#5063#0" />
+                <element signature="e#5147#5801#1" />
+                <element signature="e#7296#7498#0" />
                 <element signature="e#5953#5976#0" />
                 <element signature="e#6051#6487#0" />
                 <element signature="e#6051#6409#1" />
@@ -115,7 +112,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="913" />
     <option name="width" value="936" />
     <option name="height" value="1087" />
@@ -366,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529417432025</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Doing the project hog, Phase 2 finished, implemented the announce_highest function">
+      <created>1529593181145</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1529593181145</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -396,7 +400,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="913" y="0" width="936" height="1087" extended-state="0" />
+    <frame x="913" y="0" width="936" height="1087" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22271715" />
@@ -427,7 +431,8 @@
     <MESSAGE value="working on the Lab01 questions" />
     <MESSAGE value="Fix the wrong function for newton update working on a f(x) = g(x) situation." />
     <MESSAGE value="Doing the project hog, wip" />
-    <option name="LAST_COMMIT_MESSAGE" value="Doing the project hog, wip" />
+    <MESSAGE value="Doing the project hog, Phase 2 finished, implemented the announce_highest function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Doing the project hog, Phase 2 finished, implemented the announce_highest function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -586,8 +591,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Projects/hog/hog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="231" column="34" selection-start-line="231" selection-start-column="34" selection-end-line="231" selection-end-column="34" />
+        <state relative-caret-position="215">
+          <caret line="227" column="20" selection-start-line="227" selection-start-column="20" selection-end-line="227" selection-end-column="20" />
           <folding>
             <element signature="e#40#94#0" expanded="true" />
             <element signature="e#312#600#1" />
@@ -605,6 +610,8 @@
             <element signature="e#4512#5078#0" />
             <element signature="e#4512#4976#1" />
             <element signature="e#5014#5063#0" />
+            <element signature="e#5147#5801#1" />
+            <element signature="e#7296#7498#0" />
             <element signature="e#5953#5976#0" />
             <element signature="e#6051#6487#0" />
             <element signature="e#6051#6409#1" />
