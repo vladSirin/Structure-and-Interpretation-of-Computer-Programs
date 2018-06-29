@@ -1,5 +1,6 @@
 """Lab 2: Lambda Expressions and Higher Order Functions"""
 
+
 # Lambda Functions
 
 def lambda_curry2(func):
@@ -12,4 +13,5 @@ def lambda_curry2(func):
     8
     """
     "*** YOUR CODE HERE ***"
-    return ______
+
+    return lambda x: lambda y: func(x, y)
