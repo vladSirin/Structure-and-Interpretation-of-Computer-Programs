@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/lab02/.ok_history" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab02/.ok_history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/lab02/lab02_extra.py" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab02/lab02_extra.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,53 +18,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hog.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hog.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Projects/hog/hog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
+            <state relative-caret-position="4068">
               <caret line="227" column="20" selection-start-line="227" selection-start-column="20" selection-end-line="227" selection-end-column="20" />
               <folding>
                 <element signature="e#40#94#0" expanded="true" />
-                <element signature="e#312#600#1" />
-                <element signature="e#1155#1443#0" />
-                <element signature="e#896#1008#1" />
-                <element signature="e#1195#1534#1" />
-                <element signature="e#2152#2293#0" />
-                <element signature="e#2152#2271#1" />
-                <element signature="e#2329#2385#0" />
-                <element signature="e#2499#3295#1" />
-                <element signature="e#3475#3498#0" />
-                <element signature="e#3801#4490#0" />
-                <element signature="e#3801#4121#1" />
-                <element signature="e#4159#4475#0" />
-                <element signature="e#4512#5078#0" />
-                <element signature="e#4512#4976#1" />
-                <element signature="e#5014#5063#0" />
-                <element signature="e#5147#5801#1" />
-                <element signature="e#7296#7498#0" />
-                <element signature="e#5953#5976#0" />
-                <element signature="e#6051#6487#0" />
-                <element signature="e#6051#6409#1" />
-                <element signature="e#6459#6467#0" />
-                <element signature="e#6535#6960#0" />
-                <element signature="e#6535#6889#1" />
-                <element signature="e#7028#7396#0" />
-                <element signature="e#7028#7325#1" />
-                <element signature="e#7437#7621#0" />
-                <element signature="e#7685#8034#0" />
-                <element signature="e#7685#7830#1" />
-                <element signature="e#8064#8916#0" />
-                <element signature="e#8207#8329#0" />
-                <element signature="e#8989#9182#0" />
-                <element signature="e#8989#9099#1" />
-                <element signature="e#9254#9506#0" />
-                <element signature="e#9254#9423#1" />
-                <element signature="e#9556#9734#0" />
-                <element signature="e#9556#9651#1" />
-                <element signature="e#9737#9763#0" />
-                <element signature="e#9969#10428#0" />
-                <element signature="e#9969#10129#1" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lab02.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Labs/lab02/lab02.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lab02_extra.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Labs/lab02/lab02_extra.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="107" column="21" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="operator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/envs/Berkeley CS61A [SICP]/Lib/operator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1332">
+              <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -74,11 +64,6 @@
               <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
               <folding>
                 <element signature="e#0#498#1" />
-                <element signature="e#559#756#0" />
-                <element signature="e#717#740#0" />
-                <element signature="e#855#1568#0" />
-                <element signature="e#855#1232#1" />
-                <element signature="e#1463#1552#0" />
               </folding>
             </state>
           </provider>
@@ -109,12 +94,14 @@
         <option value="$PROJECT_DIR$/Homework/extra01/extra01.py" />
         <option value="$PROJECT_DIR$/Projects/hog/dice.py" />
         <option value="$PROJECT_DIR$/Projects/hog/hog.py" />
+        <option value="$PROJECT_DIR$/Labs/lab02/lab02.py" />
+        <option value="$PROJECT_DIR$/Labs/lab02/lab02_extra.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="913" />
-    <option name="width" value="936" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="814" />
+    <option name="width" value="1035" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -125,7 +112,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,6 +139,17 @@
             <path>
               <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
               <item name="Structure-and-Interpretation-of-Computer-Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="Labs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Structure-and-Interpretation-of-Computer-Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="Labs" type="462c0819:PsiDirectoryNode" />
+              <item name="lab02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Structure-and-Interpretation-of-Computer-Programs" type="462c0819:PsiDirectoryNode" />
               <item name="Projects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -165,6 +162,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -400,10 +398,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="913" y="0" width="936" height="1087" extended-state="1" />
+    <frame x="814" y="0" width="1035" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22271715" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2006018" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32861805" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3297062" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3297062" />
@@ -440,6 +438,40 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Projects/hog/hog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4068">
+          <caret line="227" column="20" selection-start-line="227" selection-start-column="20" selection-end-line="227" selection-end-column="20" />
+          <folding>
+            <element signature="e#40#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/Berkeley CS61A [SICP]/Lib/operator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1332">
+          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/hog/dice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#498#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/lab02/lab02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Homework/extra01/extra01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1134">
@@ -566,13 +598,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Projects/hog/tests/play_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Projects/hog/dice.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -580,61 +606,38 @@
           <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
           <folding>
             <element signature="e#0#498#1" />
-            <element signature="e#559#756#0" />
-            <element signature="e#717#740#0" />
-            <element signature="e#855#1568#0" />
-            <element signature="e#855#1232#1" />
-            <element signature="e#1463#1552#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Projects/hog/hog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
+        <state relative-caret-position="4068">
           <caret line="227" column="20" selection-start-line="227" selection-start-column="20" selection-end-line="227" selection-end-column="20" />
           <folding>
             <element signature="e#40#94#0" expanded="true" />
-            <element signature="e#312#600#1" />
-            <element signature="e#1155#1443#0" />
-            <element signature="e#896#1008#1" />
-            <element signature="e#1195#1534#1" />
-            <element signature="e#2152#2293#0" />
-            <element signature="e#2152#2271#1" />
-            <element signature="e#2329#2385#0" />
-            <element signature="e#2499#3295#1" />
-            <element signature="e#3475#3498#0" />
-            <element signature="e#3801#4490#0" />
-            <element signature="e#3801#4121#1" />
-            <element signature="e#4159#4475#0" />
-            <element signature="e#4512#5078#0" />
-            <element signature="e#4512#4976#1" />
-            <element signature="e#5014#5063#0" />
-            <element signature="e#5147#5801#1" />
-            <element signature="e#7296#7498#0" />
-            <element signature="e#5953#5976#0" />
-            <element signature="e#6051#6487#0" />
-            <element signature="e#6051#6409#1" />
-            <element signature="e#6459#6467#0" />
-            <element signature="e#6535#6960#0" />
-            <element signature="e#6535#6889#1" />
-            <element signature="e#7028#7396#0" />
-            <element signature="e#7028#7325#1" />
-            <element signature="e#7437#7621#0" />
-            <element signature="e#7685#8034#0" />
-            <element signature="e#7685#7830#1" />
-            <element signature="e#8064#8916#0" />
-            <element signature="e#8207#8329#0" />
-            <element signature="e#8989#9182#0" />
-            <element signature="e#8989#9099#1" />
-            <element signature="e#9254#9506#0" />
-            <element signature="e#9254#9423#1" />
-            <element signature="e#9556#9734#0" />
-            <element signature="e#9556#9651#1" />
-            <element signature="e#9737#9763#0" />
-            <element signature="e#9969#10428#0" />
-            <element signature="e#9969#10129#1" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/Berkeley CS61A [SICP]/Lib/operator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1332">
+          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/lab02/lab02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/lab02/lab02_extra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="107" column="21" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
         </state>
       </provider>
     </entry>

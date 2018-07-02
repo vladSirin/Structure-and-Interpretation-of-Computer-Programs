@@ -2,6 +2,7 @@
 
 from lab02 import *
 
+
 # Higher Order Functions
 
 def compose1(f, g):
@@ -21,6 +22,7 @@ def compose1(f, g):
     """
     return lambda x: f(g(x))
 
+
 def composite_identity(f, g):
     """
     Return a function with one parameter x that returns True if f(g(x)) is
@@ -36,6 +38,8 @@ def composite_identity(f, g):
     False
     """
     "*** YOUR CODE HERE ***"
+    return lambda x: compose1(f, g)(x) == compose1(g, f)(x)
+
 
 def count_cond(condition):
     """Returns a function with one parameter N that counts all the numbers from
@@ -64,6 +68,17 @@ def count_cond(condition):
     """
     "*** YOUR CODE HERE ***"
 
+    def count_new(n):
+        i, count = 1, 0
+        while i <= n:
+            if condition(n, i):
+                count += 1
+            i += 1
+        return count
+
+    return count_new
+
+
 def cycle(f1, f2, f3):
     """Returns a function that is itself a higher-order function.
 
@@ -91,3 +106,18 @@ def cycle(f1, f2, f3):
     19
     """
     "*** YOUR CODE HERE ***"
+    def another_func(n):
+        def return_func(x):
+            i, final = 1, x
+            while i <= n:
+                if i % 3 == 1:
+                    final = f1(final)
+                elif i % 3 == 2:
+                    final = f2(final)
+                elif i % 3 == 0:
+                    final = f3(final)
+                i += 1
+            return final
+        return return_func
+    return another_func
+
