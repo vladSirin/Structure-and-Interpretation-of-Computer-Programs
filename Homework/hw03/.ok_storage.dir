@@ -4,3 +4,5 @@
 'summation_using_accumulate-correct', (1536, 70)
 'product_using_accumulate-correct', (2048, 70)
 'filtered_accumulate-correct', (2560, 70)
+'make_repeater-correct', (3072, 70)
+'church_to_int-correct', (3584, 70)

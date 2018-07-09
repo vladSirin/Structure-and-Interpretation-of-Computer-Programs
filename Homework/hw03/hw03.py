@@ -191,6 +191,12 @@ def make_repeater(f, n):
     5
     """
     "*** YOUR CODE HERE ***"
+    if n == 0:
+        return lambda x: x
+    elif n == 1:
+        return f
+    else:
+        return lambda x: f(make_repeater(f, n - 1)(x))
 
 
 def compose1(f, g):
@@ -222,11 +228,13 @@ def successor(n):
 def one(f):
     """Church numeral 1: same as successor(zero)"""
     "*** YOUR CODE HERE ***"
+    return lambda x: f(x)
 
 
 def two(f):
     """Church numeral 2: same as successor(successor(zero))"""
     "*** YOUR CODE HERE ***"
+    return lambda x: f(f(x))
 
 
 three = successor(two)
@@ -245,6 +253,7 @@ def church_to_int(n):
     3
     """
     "*** YOUR CODE HERE ***"
+    return n(lambda x: x + 1)(0)
 
 
 def add_church(m, n):

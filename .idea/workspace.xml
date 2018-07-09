@@ -4,7 +4,13 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="" />
+    <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/hw03/.ok_history" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/hw03/.ok_history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/hw03/.ok_storage.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/hw03/.ok_storage.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/hw03/.ok_storage.dir" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/hw03/.ok_storage.dir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/hw03/hw03.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/hw03/hw03.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +32,8 @@
       <file leaf-file-name="hw03.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Homework/hw03/hw03.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="163" column="13" lean-forward="true" selection-start-line="163" selection-start-column="13" selection-end-line="163" selection-end-column="13" />
+            <state relative-caret-position="473">
+              <caret line="247" column="26" lean-forward="true" selection-start-line="247" selection-start-column="26" selection-end-line="247" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -351,7 +357,21 @@
       <option name="project" value="LOCAL" />
       <updated>1530629594886</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="working on the homework 3 of week 3, finishing quiz 1 - 4">
+      <created>1530884718401</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1530884718401</updated>
+    </task>
+    <task id="LOCAL-00014" summary="working on the homework 3 of week 3, finishing quiz 1 - 4">
+      <created>1530884730176</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1530884730176</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -415,7 +435,8 @@
     <MESSAGE value="Doing the project hog, Phase 2 finished, implemented the announce_highest function" />
     <MESSAGE value="finishing the lab02 practice of the Week 3" />
     <MESSAGE value="Practicing and understanding of Week 3 lecture about recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practicing and understanding of Week 3 lecture about recursion" />
+    <MESSAGE value="working on the homework 3 of week 3, finishing quiz 1 - 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on the homework 3 of week 3, finishing quiz 1 - 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -635,8 +656,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Homework/hw03/hw03.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="163" column="13" lean-forward="true" selection-start-line="163" selection-start-column="13" selection-end-line="163" selection-end-column="13" />
+        <state relative-caret-position="473">
+          <caret line="247" column="26" lean-forward="true" selection-start-line="247" selection-start-column="26" selection-end-line="247" selection-end-column="26" />
         </state>
       </provider>
     </entry>
