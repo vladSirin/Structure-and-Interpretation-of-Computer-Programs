@@ -263,6 +263,13 @@ def add_church(m, n):
     5
     """
     "*** YOUR CODE HERE ***"
+    if n == zero:
+        return m
+    else:
+        i, c_sum = 0, m
+        while i < church_to_int(n):
+            i, c_sum = i + 1, successor(c_sum)
+        return c_sum
 
 
 def mul_church(m, n):
@@ -275,6 +282,13 @@ def mul_church(m, n):
     12
     """
     "*** YOUR CODE HERE ***"
+    if n == zero or m == zero:
+        return zero
+    else:
+        i, c_product = 0, m
+        while i < church_to_int(n) - 1:
+            i, c_product = i + 1, add_church(c_product, m)
+        return c_product
 
 
 def pow_church(m, n):
@@ -286,3 +300,10 @@ def pow_church(m, n):
     9
     """
     "*** YOUR CODE HERE ***"
+    if n == zero:
+        return one
+    else:
+        i, c_pow = 0, m
+        while i < church_to_int(n) - 1:
+            i, c_pow = i + 1, mul_church(c_pow, m)
+        return c_pow

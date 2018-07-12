@@ -32,8 +32,8 @@
       <file leaf-file-name="hw03.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Homework/hw03/hw03.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="247" column="26" lean-forward="true" selection-start-line="247" selection-start-column="26" selection-end-line="247" selection-end-column="26" />
+            <state relative-caret-position="516">
+              <caret line="295" lean-forward="true" selection-start-line="295" selection-end-line="295" />
             </state>
           </provider>
         </entry>
@@ -444,13 +444,24 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Labs/lab02/lab02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework/hw03/hw03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4446">
+          <caret line="247" column="26" lean-forward="true" selection-start-line="247" selection-start-column="26" selection-end-line="247" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Projects/hog/hog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4068">
           <caret line="227" column="20" selection-start-line="227" selection-start-column="20" selection-end-line="227" selection-end-column="20" />
-          <folding>
-            <element signature="e#40#94#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -465,9 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#498#1" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -610,9 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#498#1" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -634,9 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="602">
           <caret line="392" column="7" selection-start-line="392" selection-start-column="6" selection-end-line="392" selection-end-column="7" />
-          <folding>
-            <element signature="e#40#94#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -656,8 +658,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Homework/hw03/hw03.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="247" column="26" lean-forward="true" selection-start-line="247" selection-start-column="26" selection-end-line="247" selection-end-column="26" />
+        <state relative-caret-position="516">
+          <caret line="295" lean-forward="true" selection-start-line="295" selection-end-line="295" />
         </state>
       </provider>
     </entry>
