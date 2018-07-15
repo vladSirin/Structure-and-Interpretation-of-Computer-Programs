@@ -1,6 +1,6 @@
 """CS 61A Presents The Game of Hog."""
 
-from dice import four_sided, six_sided, make_test_dice
+from dice import six_sided, make_test_dice
 from ucb import main
 
 GOAL_SCORE = 100  # The goal of Hog is to score 100 points.
@@ -225,6 +225,7 @@ def announce_highest(who, previous_high=0, previous_score=0):
     assert who == 0 or who == 1, 'The who argument should indicate a player.'
     # BEGIN PROBLEM 7
     "*** YOUR CODE HERE ***"
+
     def text(score):
         if score == 1:
             print(score, "point! That's the biggest gain yet for Player", who)
@@ -290,6 +291,14 @@ def make_averaged(fn, num_samples=1000):
     """
     # BEGIN PROBLEM 8
     "*** YOUR CODE HERE ***"
+
+    def func_return(*args):
+        i, num_sum = 0, 0
+        while i < num_samples:
+            i, num_sum = i + 1, num_sum + fn(*args)
+        return num_sum / num_samples
+
+    return func_return
     # END PROBLEM 8
 
 
@@ -304,6 +313,14 @@ def max_scoring_num_rolls(dice=six_sided, num_samples=1000):
     """
     # BEGIN PROBLEM 9
     "*** YOUR CODE HERE ***"
+    roll_dice_exp = make_averaged(roll_dice, num_samples)
+    num_roll, num_max = 1, 1
+    for i in range(1, 11):
+        num_temp = roll_dice_exp(i, dice)
+        if num_temp > num_max:
+            num_max = num_temp
+            num_roll = i
+    return num_roll
     # END PROBLEM 9
 
 
@@ -328,7 +345,7 @@ def average_win_rate(strategy, baseline=always_roll(4)):
 
 def run_experiments():
     """Run a series of strategy experiments and report results."""
-    if True:  # Change to False when done finding max_scoring_num_rolls
+    if False:  # Change to False when done finding max_scoring_num_rolls
         six_sided_max = max_scoring_num_rolls(six_sided)
         print('Max scoring num rolls for six-sided dice:', six_sided_max)
 
@@ -352,7 +369,10 @@ def bacon_strategy(score, opponent_score, margin=8, num_rolls=4):
     rolls NUM_ROLLS otherwise.
     """
     # BEGIN PROBLEM 10
-    return 4  # Replace this statement
+    if free_bacon(opponent_score) >= margin:
+        return 0
+    else:
+        return num_rolls
     # END PROBLEM 10
 
 

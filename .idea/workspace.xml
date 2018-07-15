@@ -6,10 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/hw03/.ok_history" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/hw03/.ok_history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/hw03/.ok_storage.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/hw03/.ok_storage.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/hw03/.ok_storage.dir" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/hw03/.ok_storage.dir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/hw03/hw03.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/hw03/hw03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/hog/.ok_history" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/.ok_history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/hog/.ok_storage.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/.ok_storage.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/hog/.ok_storage.dir" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/.ok_storage.dir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/hog/hog.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/hog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/hog/tests/08.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/tests/08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/hog/tests/09.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/tests/09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/hog/tests/10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/tests/10.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,11 +32,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hw03.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hw03.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Homework/hw03/hw03.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="295" lean-forward="true" selection-start-line="295" selection-end-line="295" />
+            <state relative-caret-position="545">
+              <caret line="295" selection-start-line="295" selection-end-line="295" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hog.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Projects/hog/hog.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="559">
+              <caret line="374" column="24" selection-start-line="374" selection-start-column="24" selection-end-line="374" selection-end-column="24" />
+              <folding>
+                <element signature="e#40#94#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,6 +65,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>P</find>
+      <find>average</find>
+      <find>roll_dice</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -67,11 +84,11 @@
         <option value="$PROJECT_DIR$/Homework/hw02/hw02.py" />
         <option value="$PROJECT_DIR$/Homework/extra01/extra01.py" />
         <option value="$PROJECT_DIR$/Projects/hog/dice.py" />
-        <option value="$PROJECT_DIR$/Projects/hog/hog.py" />
         <option value="$PROJECT_DIR$/Labs/lab02/lab02.py" />
         <option value="$PROJECT_DIR$/Labs/lab02/lab02_extra.py" />
         <option value="$PROJECT_DIR$/Week 3/ex.py" />
         <option value="$PROJECT_DIR$/Homework/hw03/hw03.py" />
+        <option value="$PROJECT_DIR$/Projects/hog/hog.py" />
       </list>
     </option>
   </component>
@@ -371,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530884730176</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="working on the homework 3 of week 3, finishing it">
+      <created>1531404087917</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1531404087917</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -436,7 +460,8 @@
     <MESSAGE value="finishing the lab02 practice of the Week 3" />
     <MESSAGE value="Practicing and understanding of Week 3 lecture about recursion" />
     <MESSAGE value="working on the homework 3 of week 3, finishing quiz 1 - 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on the homework 3 of week 3, finishing quiz 1 - 4" />
+    <MESSAGE value="working on the homework 3 of week 3, finishing it" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on the homework 3 of week 3, finishing it" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -462,6 +487,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4068">
           <caret line="227" column="20" selection-start-line="227" selection-start-column="20" selection-end-line="227" selection-end-column="20" />
+          <folding>
+            <element signature="e#40#94#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -635,13 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/hog/hog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="392" column="7" selection-start-line="392" selection-start-column="6" selection-end-line="392" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week 3/ex.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -658,8 +679,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Homework/hw03/hw03.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="295" lean-forward="true" selection-start-line="295" selection-end-line="295" />
+        <state relative-caret-position="545">
+          <caret line="295" selection-start-line="295" selection-end-line="295" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/hog/hog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="374" column="24" selection-start-line="374" selection-start-column="24" selection-end-line="374" selection-end-column="24" />
+          <folding>
+            <element signature="e#40#94#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
