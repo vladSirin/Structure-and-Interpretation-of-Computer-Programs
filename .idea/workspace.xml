@@ -10,9 +10,7 @@
       <change beforePath="$PROJECT_DIR$/Projects/hog/.ok_storage.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/.ok_storage.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projects/hog/.ok_storage.dir" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/.ok_storage.dir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projects/hog/hog.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/hog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/hog/tests/08.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/tests/08.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/hog/tests/09.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/tests/09.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/hog/tests/10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/tests/10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/hog/tests/11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/hog/tests/11.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,8 +42,8 @@
       <file leaf-file-name="hog.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Projects/hog/hog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="374" column="24" selection-start-line="374" selection-start-column="24" selection-end-line="374" selection-end-column="24" />
+            <state relative-caret-position="320">
+              <caret line="393" column="42" lean-forward="true" selection-start-line="393" selection-start-column="42" selection-end-line="393" selection-end-column="42" />
               <folding>
                 <element signature="e#40#94#0" expanded="true" />
               </folding>
@@ -67,6 +65,7 @@
       <find>P</find>
       <find>average</find>
       <find>roll_dice</find>
+      <find>swap</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -395,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531404087917</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="working on the hog phase three">
+      <created>1531660611319</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1531660611319</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -428,10 +434,10 @@
     <frame x="914" y="0" width="935" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22296543" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22296543" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32861805" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3297062" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3297062" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" x="44" y="392" width="919" height="1048" id="Python Console" order="10" show_stripe_button="false" type="FLOATING" weight="0.29926237" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -448,6 +454,32 @@
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -461,7 +493,8 @@
     <MESSAGE value="Practicing and understanding of Week 3 lecture about recursion" />
     <MESSAGE value="working on the homework 3 of week 3, finishing quiz 1 - 4" />
     <MESSAGE value="working on the homework 3 of week 3, finishing it" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on the homework 3 of week 3, finishing it" />
+    <MESSAGE value="working on the hog phase three" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on the hog phase three" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -504,6 +537,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#498#1" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -646,6 +682,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#498#1" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -686,8 +725,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Projects/hog/hog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="374" column="24" selection-start-line="374" selection-start-column="24" selection-end-line="374" selection-end-column="24" />
+        <state relative-caret-position="320">
+          <caret line="393" column="42" lean-forward="true" selection-start-line="393" selection-start-column="42" selection-end-line="393" selection-end-column="42" />
           <folding>
             <element signature="e#40#94#0" expanded="true" />
           </folding>
