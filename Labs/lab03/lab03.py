@@ -1,5 +1,6 @@
 """ Lab 3: Recursion and Midterm Review """
 
+
 def gcd(a, b):
     """Returns the greatest common divisor of a and b.
     Should be implemented using recursion.
@@ -14,6 +15,17 @@ def gcd(a, b):
     40
     """
     "*** YOUR CODE HERE ***"
+    if a > b:
+        if a % b == 0:
+            return b
+        else:
+            return gcd(b, a % b)
+    elif a <= b:
+        if b % a == 0:
+            return a
+        else:
+            return gcd(a, b % a)
+
 
 def hailstone(n):
     """Print out the hailstone sequence starting at n, and return the
@@ -31,3 +43,12 @@ def hailstone(n):
     7
     """
     "*** YOUR CODE HERE ***"
+    if n == 1:
+        print(1)
+        return 1
+    elif n % 2 == 0:
+        print(n)
+        return hailstone(n // 2) + 1
+    else:
+        print(n)
+        return hailstone(3 * n + 1) + 1
