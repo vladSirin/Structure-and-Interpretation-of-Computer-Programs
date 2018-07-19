@@ -4,7 +4,11 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="" />
+    <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Labs/lab03/lab03.py" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab03/lab03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/lab03/tests/call_expressions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab03/tests/call_expressions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/lab03/tests/skip_mul_ok.py" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab03/tests/skip_mul_ok.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,29 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lab02.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Labs/lab02/lab02.py">
+      <file leaf-file-name="lab03.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Labs/lab03/lab03.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hw03.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homework/hw03/hw03.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5310">
-              <caret line="295" selection-start-line="295" selection-end-line="295" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hog.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Projects/hog/hog.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="393" column="42" selection-start-line="393" selection-start-column="42" selection-end-line="393" selection-end-column="42" />
+            <state relative-caret-position="499">
+              <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -78,6 +64,7 @@
         <option value="$PROJECT_DIR$/Week 3/ex.py" />
         <option value="$PROJECT_DIR$/Homework/hw03/hw03.py" />
         <option value="$PROJECT_DIR$/Projects/hog/hog.py" />
+        <option value="$PROJECT_DIR$/Labs/lab03/lab03.py" />
       </list>
     </option>
   </component>
@@ -121,7 +108,7 @@
               <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
               <item name="Structure-and-Interpretation-of-Computer-Programs" type="462c0819:PsiDirectoryNode" />
               <item name="Labs" type="462c0819:PsiDirectoryNode" />
-              <item name="lab02" type="462c0819:PsiDirectoryNode" />
+              <item name="lab03" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
@@ -398,7 +385,21 @@
       <option name="project" value="LOCAL" />
       <updated>1531752670232</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="syncing the lab 03,&#10;Finishing the lecture">
+      <created>1531926071387</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1531926071388</updated>
+    </task>
+    <task id="LOCAL-00019" summary="syncing the lab 03,&#10;Finishing the lecture">
+      <created>1531926080243</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1531926080243</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -429,11 +430,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="914" y="0" width="935" height="1087" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22296543" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22296543" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32861805" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3297062" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" x="44" y="392" width="919" height="1048" id="Python Console" order="10" show_stripe_button="false" type="FLOATING" weight="0.29926237" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -491,7 +493,8 @@
     <MESSAGE value="working on the homework 3 of week 3, finishing it" />
     <MESSAGE value="working on the hog phase three" />
     <MESSAGE value="Finish the hog project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish the hog project" />
+    <MESSAGE value="syncing the lab 03,&#10;Finishing the lecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="syncing the lab 03,&#10;Finishing the lecture" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -734,8 +737,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Projects/hog/hog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
+        <state relative-caret-position="104">
           <caret line="393" column="42" selection-start-line="393" selection-start-column="42" selection-end-line="393" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/lab03/lab03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
         </state>
       </provider>
     </entry>
