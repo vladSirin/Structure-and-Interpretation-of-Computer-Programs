@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Labs/lab03/.ok_history" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab03/.ok_history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/lab03/.ok_storage.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab03/.ok_storage.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/lab03/.ok_storage.dir" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab03/.ok_storage.dir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Labs/lab03/lab03_extra.py" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab03/lab03_extra.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +29,8 @@
       <file leaf-file-name="lab03_extra.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Labs/lab03/lab03_extra.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="71" column="17" lean-forward="true" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+            <state relative-caret-position="319">
+              <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -439,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532013226813</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="working on the Lab 03">
+      <created>1532098093634</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1532098093634</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -792,8 +796,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Labs/lab03/lab03_extra.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="71" column="17" lean-forward="true" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+        <state relative-caret-position="319">
+          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
         </state>
       </provider>
     </entry>

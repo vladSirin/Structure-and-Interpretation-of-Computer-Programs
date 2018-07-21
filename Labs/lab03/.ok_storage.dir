@@ -1,3 +1,4 @@
 'gcd-correct', (0, 70)
 'hailstone-correct', (512, 70)
 'cycle-correct', (1024, 70)
+'is_palindrome-correct', (1536, 70)
