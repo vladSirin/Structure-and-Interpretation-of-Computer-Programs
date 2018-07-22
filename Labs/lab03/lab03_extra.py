@@ -1,5 +1,7 @@
 """ Optional problems for Lab 3 """
 
+from math import sqrt
+
 from lab03 import *
 
 
@@ -45,7 +47,9 @@ def cycle(f1, f2, f3):
                     f = f3(f)
                 i += 1
             return f
+
         return cycle_two
+
     return cycle_one
 
 
@@ -82,6 +86,8 @@ def skip_mul(n):
     >>> skip_mul(8) # 8 * 6 * 4 * 2
     384
     """
+    if n == 1:
+        return 1
     if n == 2:
         return 2
     else:
@@ -100,6 +106,16 @@ def is_prime(n):
     """
     "*** YOUR CODE HERE ***"
 
+    def is_prime_two(x, y):
+        if y < 2:
+            return True
+        if x % y == 0:
+            return False
+        else:
+            return is_prime_two(x, y - 1)
+
+    return is_prime_two(n, n // sqrt(n))
+
 
 def interleaved_sum(n, odd_term, even_term):
     """Compute the sum odd_term(1) + even_term(2) + odd_term(3) + ..., up
@@ -110,6 +126,16 @@ def interleaved_sum(n, odd_term, even_term):
     29
     """
     "*** YOUR CODE HERE ***"
+    if n == 0:
+        return 0
+
+    def product(x, y, z):
+        if x % 2 == 1:
+            return y(x)
+        elif x % 2 == 0:
+            return z(x)
+
+    return product(n, odd_term, even_term) + interleaved_sum(n-1, odd_term, even_term)
 
 
 def ten_pairs(n):
@@ -123,3 +149,10 @@ def ten_pairs(n):
     6
     """
     "*** YOUR CODE HERE ***"
+    def num_times(num, n):
+        times, i = 0, n
+        while i > 0:
+            if i % 10 == num:
+                times += 1
+            i = i // 10
+        return times
