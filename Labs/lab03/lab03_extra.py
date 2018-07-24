@@ -1,5 +1,6 @@
 """ Optional problems for Lab 3 """
 
+from math import factorial
 from math import sqrt
 
 from lab03 import *
@@ -135,7 +136,7 @@ def interleaved_sum(n, odd_term, even_term):
         elif x % 2 == 0:
             return z(x)
 
-    return product(n, odd_term, even_term) + interleaved_sum(n-1, odd_term, even_term)
+    return product(n, odd_term, even_term) + interleaved_sum(n - 1, odd_term, even_term)
 
 
 def ten_pairs(n):
@@ -149,6 +150,7 @@ def ten_pairs(n):
     6
     """
     "*** YOUR CODE HERE ***"
+
     def num_times(num, n):
         times, i = 0, n
         while i > 0:
@@ -156,3 +158,17 @@ def ten_pairs(n):
                 times += 1
             i = i // 10
         return times
+
+    j, sum_r = 1, 0
+    while j < 5:
+        sum_r += num_times(j, n) * num_times(10 - j, n)
+        j += 1
+
+    if num_times(5, n) > 2:
+        sum_5 = factorial(num_times(5, n)) // (2 * factorial(num_times(5, n) - 2))
+    elif num_times(5, n) == 2:
+        sum_5 = 1
+    else:
+        sum_5 = 0
+
+    return sum_r+sum_5

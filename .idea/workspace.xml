@@ -10,7 +10,6 @@
       <change beforePath="$PROJECT_DIR$/Labs/lab03/.ok_storage.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab03/.ok_storage.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Labs/lab03/.ok_storage.dir" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab03/.ok_storage.dir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Labs/lab03/lab03_extra.py" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab03/lab03_extra.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/lab03/tests/skip_mul_ok.py" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/lab03/tests/skip_mul_ok.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,10 +32,10 @@
       <file leaf-file-name="lab03_extra.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Labs/lab03/lab03_extra.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
+            <state relative-caret-position="396">
+              <caret line="167" column="17" lean-forward="true" selection-start-line="167" selection-start-column="17" selection-end-line="167" selection-end-column="17" />
               <folding>
-                <element signature="e#37#58#0" expanded="true" />
+                <element signature="e#37#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -457,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532184690295</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="working on the Lab 03">
+      <created>1532269345357</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1532269345357</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -810,10 +816,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Labs/lab03/lab03_extra.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
+        <state relative-caret-position="396">
+          <caret line="167" column="17" lean-forward="true" selection-start-line="167" selection-start-column="17" selection-end-line="167" selection-end-column="17" />
           <folding>
-            <element signature="e#37#58#0" expanded="true" />
+            <element signature="e#37#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
