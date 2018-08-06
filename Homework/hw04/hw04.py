@@ -1,4 +1,5 @@
 HW_SOURCE_FILE = 'hw04.py'
+from math import *
 
 ###############
 #  Questions  #
@@ -6,15 +7,19 @@ HW_SOURCE_FILE = 'hw04.py'
 
 def intersection(st, ave):
     """Represent an intersection using the Cantor pairing function."""
-    return (st+ave)*(st+ave+1)//2 + ave
+    return (st + ave) * (st + ave + 1) // 2 + ave
+
 
 def street(inter):
     return w(inter) - avenue(inter)
 
+
 def avenue(inter):
     return inter - (w(inter) ** 2 + w(inter)) // 2
 
-w = lambda z: int(((8*z+1)**0.5-1)/2)
+
+w = lambda z: int(((8 * z + 1) ** 0.5 - 1) / 2)
+
 
 def taxicab(a, b):
     """Return the taxicab distance between two intersections.
@@ -27,6 +32,8 @@ def taxicab(a, b):
     9
     """
     "*** YOUR CODE HERE ***"
+    return abs(street(a) - street(b)) + abs(avenue(a) - avenue(b))
+
 
 def squares(s):
     """Returns a new list containing square roots of the elements of the
@@ -40,6 +47,12 @@ def squares(s):
     []
     """
     "*** YOUR CODE HERE ***"
+    perfect_s = []
+    for num in s:
+        if pow(round(sqrt(num)), 2) == num:
+            perfect_s.append(round(sqrt(num)))
+    return perfect_s
+
 
 def g(n):
     """Return the value of G(n), computed recursively.
@@ -59,6 +72,11 @@ def g(n):
     True
     """
     "*** YOUR CODE HERE ***"
+    if n <= 3:
+        return n
+    else:
+        return g(n-1) + 2 * g(n-2) + 3 * g(n-3)
+
 
 def g_iter(n):
     """Return the value of G(n), computed iteratively.
@@ -78,6 +96,13 @@ def g_iter(n):
     True
     """
     "*** YOUR CODE HERE ***"
+    val = []
+    for i in range(4):
+        val.append(i)
+    for i in range(4, n+1):
+        val.append(val[i-1] + 2 * val[i - 2] + 3* val[i-3])
+    return val[n]
+
 
 def pingpong(n):
     """Return the nth element of the ping-pong sequence.
@@ -112,6 +137,7 @@ def pingpong(n):
     """
     "*** YOUR CODE HERE ***"
 
+
 def has_seven(k):
     """Returns True if at least one of the digits of k is a 7, False otherwise.
 
@@ -135,6 +161,7 @@ def has_seven(k):
     else:
         return has_seven(k // 10)
 
+
 def count_change(amount):
     """Return the number of ways to make change for amount.
 
@@ -149,11 +176,10 @@ def count_change(amount):
     """
     "*** YOUR CODE HERE ***"
 
+
 ###################
 # Extra Questions #
 ###################
-
-from operator import sub, mul
 
 def make_anonymous_factorial():
     """Return the value of an expression that computes factorial.
