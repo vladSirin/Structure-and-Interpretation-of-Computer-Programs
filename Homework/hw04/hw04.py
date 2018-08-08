@@ -140,7 +140,7 @@ def pingpong(n):
     def pp_7_num(x):
         if x < 7:
             return 0
-        if has_seven(x) or x % 7 == 0:
+        elif has_seven(x-1) or (x-1) % 7 == 0:
             return pp_7_num(x-1) + 1
         else:
             return pp_7_num(x-1)
