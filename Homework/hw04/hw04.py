@@ -1,6 +1,7 @@
 HW_SOURCE_FILE = 'hw04.py'
 from math import *
 
+
 ###############
 #  Questions  #
 ###############
@@ -75,7 +76,7 @@ def g(n):
     if n <= 3:
         return n
     else:
-        return g(n-1) + 2 * g(n-2) + 3 * g(n-3)
+        return g(n - 1) + 2 * g(n - 2) + 3 * g(n - 3)
 
 
 def g_iter(n):
@@ -99,8 +100,8 @@ def g_iter(n):
     val = []
     for i in range(4):
         val.append(i)
-    for i in range(4, n+1):
-        val.append(val[i-1] + 2 * val[i - 2] + 3* val[i-3])
+    for i in range(4, n + 1):
+        val.append(val[i - 1] + 2 * val[i - 2] + 3 * val[i - 3])
     return val[n]
 
 
@@ -136,6 +137,20 @@ def pingpong(n):
     True
     """
     "*** YOUR CODE HERE ***"
+    def pp_7_num(x):
+        if x < 7:
+            return 0
+        if has_seven(x) or x % 7 == 0:
+            return pp_7_num(x-1) + 1
+        else:
+            return pp_7_num(x-1)
+    if n <= 7:
+        return n
+    else:
+        if pp_7_num(n) % 2 == 0:
+            return pingpong(n-1) + 1
+        elif pp_7_num(n) % 2 != 0:
+            return pingpong(n-1) - 1
 
 
 def has_seven(k):

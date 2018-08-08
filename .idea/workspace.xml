@@ -4,7 +4,10 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="" />
+    <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/hw04/hw04.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/hw04/hw04.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,23 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lab03.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Labs/lab03/lab03.py">
+      <file leaf-file-name="hw04.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Homework/hw04/hw04.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="48" column="20" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lab03_extra.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Labs/lab03/lab03_extra.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="167" column="17" lean-forward="true" selection-start-line="167" selection-start-column="17" selection-end-line="167" selection-end-column="17" />
-              <folding>
-                <element signature="e#37#63#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="450">
+              <caret line="143" selection-start-line="143" selection-end-line="143" />
             </state>
           </provider>
         </entry>
@@ -74,6 +65,7 @@
         <option value="$PROJECT_DIR$/Projects/hog/hog.py" />
         <option value="$PROJECT_DIR$/Labs/lab03/lab03.py" />
         <option value="$PROJECT_DIR$/Labs/lab03/lab03_extra.py" />
+        <option value="$PROJECT_DIR$/Homework/hw04/hw04.py" />
       </list>
     </option>
   </component>
@@ -106,7 +98,7 @@
               <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
               <item name="Structure-and-Interpretation-of-Computer-Programs" type="462c0819:PsiDirectoryNode" />
               <item name="Homework" type="462c0819:PsiDirectoryNode" />
-              <item name="hw03" type="462c0819:PsiDirectoryNode" />
+              <item name="hw04" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
@@ -464,7 +456,21 @@
       <option name="project" value="LOCAL" />
       <updated>1532442954409</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="preparing homework 4">
+      <created>1532616183854</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1532616183854</updated>
+    </task>
+    <task id="LOCAL-00029" summary="working on homework 4">
+      <created>1533570710561</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1533570710561</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -500,7 +506,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22296543" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32861805" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3297062" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32876712" />
       <window_info anchor="bottom" x="44" y="392" width="919" height="1048" id="Python Console" order="10" show_stripe_button="false" type="FLOATING" weight="0.29926237" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -516,6 +522,26 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22296543" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32861805" />
+      <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.3297062" />
+      <window_info anchor="bottom" x="44" y="392" width="919" height="1048" id="Python Console" order="11" show_stripe_button="false" type="FLOATING" weight="0.29926237" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39831403" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32752994" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3297062" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -560,7 +586,9 @@
     <MESSAGE value="Finish the hog project" />
     <MESSAGE value="syncing the lab 03,&#10;Finishing the lecture" />
     <MESSAGE value="working on the Lab 03" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on the Lab 03" />
+    <MESSAGE value="preparing homework 4" />
+    <MESSAGE value="working on homework 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on homework 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -568,6 +596,23 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Labs/lab03/lab03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/lab03/lab03_extra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2952">
+          <caret line="167" column="17" lean-forward="true" selection-start-line="167" selection-start-column="17" selection-end-line="167" selection-end-column="17" />
+          <folding>
+            <element signature="e#37#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Labs/lab02/lab02.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -810,18 +855,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Labs/lab03/lab03.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
+        <state relative-caret-position="864">
           <caret line="48" column="20" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Labs/lab03/lab03_extra.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="167" column="17" lean-forward="true" selection-start-line="167" selection-start-column="17" selection-end-line="167" selection-end-column="17" />
+        <state relative-caret-position="667">
+          <caret line="167" column="17" selection-start-line="167" selection-start-column="17" selection-end-line="167" selection-end-column="17" />
           <folding>
             <element signature="e#37#63#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework/hw04/hw04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
         </state>
       </provider>
     </entry>
