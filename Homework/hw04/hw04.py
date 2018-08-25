@@ -190,6 +190,23 @@ def count_change(amount):
     9828
     """
     "*** YOUR CODE HERE ***"
+    def max_m(num):
+        i = 0
+        while pow(2, i) < num:
+            i += 1
+        return pow(2, i-1)
+
+    if amount == 1:
+        return 1
+
+    elif amount <= 3:
+        return 2
+
+    # elif log(amount, 2) % 1 == 0:
+    #     return amount - 1
+
+    else:
+        return int(count_change(amount - max_m(amount)) * count_change(max_m(amount)))
 
 
 ###################
