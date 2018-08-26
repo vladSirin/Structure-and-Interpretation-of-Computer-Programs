@@ -194,19 +194,19 @@ def count_change(amount):
         i = 0
         while pow(2, i) < num:
             i += 1
-        return pow(2, i-1)
+        return i-1
 
-    if amount == 1:
-        return 1
+    def count_change_max(amount, max):
+        if amount == 0 or max == 0:
+            return 1
+        elif amount < 0 or max < 0:
+            return 0
+        else:
+            return count_change_max(amount - pow(2, max), max) + count_change_max(amount, max-1)
 
-    elif amount <= 3:
-        return 2
+    return count_change_max(amount, max_m(amount))
 
-    # elif log(amount, 2) % 1 == 0:
-    #     return amount - 1
 
-    else:
-        return int(count_change(amount - max_m(amount)) * count_change(max_m(amount)))
 
 
 ###################
