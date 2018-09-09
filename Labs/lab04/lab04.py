@@ -1,5 +1,6 @@
 """ Lab 04: Lists and Data Abstraction """
 
+
 # Q2
 def if_this_not_that(i_list, this):
     """Define a function which takes a list of integers `i_list` and an integer
@@ -15,6 +16,12 @@ def if_this_not_that(i_list, this):
     5
     """
     "*** YOUR CODE HERE ***"
+    for _ in i_list:
+        if _ > this:
+            print(_)
+        else:
+            print('that')
+
 
 # City ADT
 def make_city(name, lat, lon):
@@ -29,6 +36,7 @@ def make_city(name, lat, lon):
     """
     return [name, lat, lon]
 
+
 def get_name(city):
     """
     >>> city = make_city('Berkeley', 0, 1)
@@ -36,6 +44,7 @@ def get_name(city):
     'Berkeley'
     """
     return city[0]
+
 
 def get_lat(city):
     """
@@ -45,6 +54,7 @@ def get_lat(city):
     """
     return city[1]
 
+
 def get_lon(city):
     """
     >>> city = make_city('Berkeley', 0, 1)
@@ -53,8 +63,11 @@ def get_lon(city):
     """
     return city[2]
 
+
 # Q4
 from math import sqrt
+
+
 def distance(city1, city2):
     """
     >>> city1 = make_city('city1', 0, 1)
@@ -67,6 +80,11 @@ def distance(city1, city2):
     5.0
     """
     "*** YOUR CODE HERE ***"
+    return sqrt((get_lat(city1) - get_lat(city2))**2 + (get_lon(city1) - get_lon(city2))**2)
+
+
+
+
 
 # Q5
 def closer_city(lat, lon, city1, city2):
@@ -84,13 +102,22 @@ def closer_city(lat, lon, city1, city2):
     'Bucharest'
     """
     "*** YOUR CODE HERE ***"
+    city_temp = make_city('temp', lat, lon)
+    city1_d = distance(city_temp, city1)
+    city2_d = distance(city_temp, city2)
+    if city1_d > city2_d:
+        return get_name(city2)
+    else:
+        return get_name(city1)
+
+
 
 # Q6
 # This is another implementation of the City ADT. Make sure
 # your code works for both the previous and the following versions
 # of the constructor and selectors!
 #
-# make_city = lambda name, lat, lon: [lon, [lat], name]
-# get_name = lambda city: city[2]
-# get_lat = lambda city: city[1][0]
-# get_lon = lambda city: city[0]
+make_city = lambda name, lat, lon: [lon, [lat], name]
+get_name = lambda city: city[2]
+get_lat = lambda city: city[1][0]
+get_lon = lambda city: city[0]

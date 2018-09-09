@@ -2,6 +2,7 @@
 
 from lab04 import *
 
+
 # Q6
 def flatten(lst):
     """Returns a flattened version of lst.
@@ -16,6 +17,14 @@ def flatten(lst):
     [1, 1, 1, 1, 1, 1]
     """
     "*** YOUR CODE HERE ***"
+    final = []
+    for i in lst:
+        if type(i) != list:
+            final.append(i)
+        else:
+            final += flatten(i)
+    return final
+
 
 # Q7
 def merge(lst1, lst2):
@@ -31,6 +40,8 @@ def merge(lst1, lst2):
     [2, 4, 5, 6, 7]
     """
     "*** YOUR CODE HERE ***"
+    return sorted(lst1 + lst2)
+
 
 ######################
 ### Connect N Game ###
@@ -135,6 +146,7 @@ def make_move(board, max_rows, max_cols, col, player):
     """
     "*** YOUR CODE HERE ***"
 
+
 def print_board(board, max_rows, max_cols):
     """Prints the board. Row 0 is at the top, and column 0 at the far left.
 
@@ -149,6 +161,7 @@ def print_board(board, max_rows, max_cols):
     X -
     """
     "*** YOUR CODE HERE ***"
+
 
 def check_win_row(board, max_rows, max_cols, num_connect, row, player):
     """ Returns True if the given player has a horizontal win
@@ -174,6 +187,7 @@ def check_win_row(board, max_rows, max_cols, num_connect, row, player):
     """
     "*** YOUR CODE HERE ***"
 
+
 def check_win_column(board, max_rows, max_cols, num_connect, col, player):
     """ Returns True if the given player has a vertical win in the given column,
     and otherwise False.
@@ -198,6 +212,7 @@ def check_win_column(board, max_rows, max_cols, num_connect, col, player):
     False
     """
     "*** YOUR CODE HERE ***"
+
 
 def check_win(board, max_rows, max_cols, num_connect, row, col, player):
     """Returns True if the given player has any kind of win after placing a
@@ -234,6 +249,7 @@ def check_win(board, max_rows, max_cols, num_connect, row, col, player):
     diagonal_win = check_win_diagonal(board, max_rows, max_cols, num_connect,
                                       row, col, player)
     "*** YOUR CODE HERE ***"
+
 
 ###############################################################
 ### Functions for reference when solving the other problems ###
@@ -283,11 +299,13 @@ def check_win_diagonal(board, max_rows, max_cols, num_connect, row, col, player)
 
     return False
 
+
 #####################################################################################
 ### You do not need to read or understand the following code for this assignment. ###
 #####################################################################################
 
 import sys
+
 
 def other(player):
     """ Returns the given player's opponent.
@@ -295,6 +313,7 @@ def other(player):
     if player == 'X':
         return 'O'
     return 'X'
+
 
 def play(board, max_rows, max_cols, num_connect):
     max_turns = max_rows * max_cols
@@ -331,6 +350,7 @@ def play(board, max_rows, max_cols, num_connect):
 
         who = other(who)
 
+
 def start_game():
     # Get all parameters for the game from user.
     while True:
@@ -346,7 +366,7 @@ def start_game():
         # Get number of rows for board from user.
         while True:
             try:
-                 max_rows = int(input('How many rows? '))
+                max_rows = int(input('How many rows? '))
             except ValueError as e:
                 print('Invalid input. Please try again.')
                 continue
