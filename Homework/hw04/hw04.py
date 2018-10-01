@@ -207,7 +207,7 @@ def count_change(amount):
     return count_change_max(amount, max_m(amount))
 
 
-
+from operator import sub, mul
 
 ###################
 # Extra Questions #
@@ -222,4 +222,4 @@ def make_anonymous_factorial():
     >>> check(HW_SOURCE_FILE, 'make_anonymous_factorial', ['Assign', 'AugAssign', 'FunctionDef', 'Recursion'])
     True
     """
-    return 'YOUR_EXPRESSION_HERE'
+    return (lambda b: (lambda a, b: a(a, b))(lambda a, b: b * a(a, b - 1) if b > 0 else 1, b))
