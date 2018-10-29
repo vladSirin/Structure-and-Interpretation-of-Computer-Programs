@@ -137,20 +137,22 @@ def pingpong(n):
     True
     """
     "*** YOUR CODE HERE ***"
+
     def pp_7_num(x):
         if x < 7:
             return 0
-        elif has_seven(x-1) or (x-1) % 7 == 0:
-            return pp_7_num(x-1) + 1
+        elif has_seven(x - 1) or (x - 1) % 7 == 0:
+            return pp_7_num(x - 1) + 1
         else:
-            return pp_7_num(x-1)
+            return pp_7_num(x - 1)
+
     if n <= 7:
         return n
     else:
         if pp_7_num(n) % 2 == 0:
-            return pingpong(n-1) + 1
+            return pingpong(n - 1) + 1
         elif pp_7_num(n) % 2 != 0:
-            return pingpong(n-1) - 1
+            return pingpong(n - 1) - 1
 
 
 def has_seven(k):
@@ -190,11 +192,12 @@ def count_change(amount):
     9828
     """
     "*** YOUR CODE HERE ***"
+
     def max_m(num):
         i = 0
         while pow(2, i) < num:
             i += 1
-        return i-1
+        return i - 1
 
     def count_change_max(amount, max):
         if amount == 0 or max == 0:
@@ -202,12 +205,10 @@ def count_change(amount):
         elif amount < 0 or max < 0:
             return 0
         else:
-            return count_change_max(amount - pow(2, max), max) + count_change_max(amount, max-1)
+            return count_change_max(amount - pow(2, max), max) + count_change_max(amount, max - 1)
 
     return count_change_max(amount, max_m(amount))
 
-
-from operator import sub, mul
 
 ###################
 # Extra Questions #
