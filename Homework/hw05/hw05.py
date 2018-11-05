@@ -465,7 +465,7 @@ def make_withdraw(balance, password):
     >>> error
     'Incorrect password'
     >>> new_bal = w(25, 'hax0r')
-    >>> new
+    >>> new_bal
     50
     >>> w(75, 'a')
     'Incorrect password'
@@ -481,6 +481,29 @@ def make_withdraw(balance, password):
     True
     """
     "*** YOUR CODE HERE ***"
+    p1, p2, p3 = '', '', ''
+    wrong_count = 0
+
+    def withdraw(amount, code):
+        nonlocal p1, p2, p3, wrong_count, balance, password
+        if wrong_count >= 3:
+            return 'Your account is locked. Attempts: ' + str([p1, p2, p3])
+        if code != password:
+            wrong_count += 1
+            if wrong_count == 1:
+                p1 = code
+            elif wrong_count == 2:
+                p2 = code
+            elif wrong_count == 3:
+                p3 = code
+            return 'Incorrect password'
+        else:
+            if amount > balance:
+                return 'Insufficient funds'
+            balance = balance - amount
+            return balance
+
+    return withdraw
 
 
 def make_joint(withdraw, old_password, new_password):
@@ -522,6 +545,21 @@ def make_joint(withdraw, old_password, new_password):
     "Your account is locked. Attempts: ['my', 'secret', 'password']"
     """
     "*** YOUR CODE HERE ***"
+    x = withdraw(0, old_password)
+    if type(x) == str:
+        return x
+
+    else:
+        def withdraw_r(amount, code):
+            if code == new_password:
+                # print('password is new')
+                return withdraw(amount, old_password)
+            elif code != new_password:
+                return withdraw(amount, code)
+
+        return withdraw_r
+
+
 
 
 ###################
