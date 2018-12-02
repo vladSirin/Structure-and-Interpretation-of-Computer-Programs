@@ -560,8 +560,6 @@ def make_joint(withdraw, old_password, new_password):
         return withdraw_r
 
 
-
-
 ###################
 # Extra Questions #
 ###################
@@ -574,11 +572,13 @@ def interval(a, b):
 def lower_bound(x):
     """Return the lower bound of interval x."""
     "*** YOUR CODE HERE ***"
+    return x[0]
 
 
 def upper_bound(x):
     """Return the upper bound of interval x."""
     "*** YOUR CODE HERE ***"
+    return x[1]
 
 
 def str_interval(x):
@@ -608,6 +608,7 @@ def sub_interval(x, y):
     """Return the interval that contains the difference between any value in x
     and any value in y."""
     "*** YOUR CODE HERE ***"
+    p1 = x[0] - y[0]
 
 
 def div_interval(x, y):
