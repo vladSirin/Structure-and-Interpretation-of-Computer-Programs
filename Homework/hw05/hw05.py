@@ -597,18 +597,22 @@ def add_interval(x, y):
 def mul_interval(x, y):
     """Return the interval that contains the product of any value in x and any
     value in y."""
-    p1 = x[0] * y[0]
-    p2 = x[0] * y[1]
-    p3 = x[1] * y[0]
-    p4 = x[1] * y[1]
-    return [min(p1, p2, p3, p4), max(p1, p2, p3, p4)]
+    p1 = lower_bound(x) * lower_bound(y)
+    p2 = lower_bound(x) * upper_bound(y)
+    p3 = upper_bound(x) * lower_bound(y)
+    p4 = upper_bound(x) * upper_bound(y)
+    return interval(min(p1, p2, p3, p4), max(p1, p2, p3, p4))
 
 
 def sub_interval(x, y):
     """Return the interval that contains the difference between any value in x
     and any value in y."""
     "*** YOUR CODE HERE ***"
-    p1 = x[0] - y[0]
+    p1 = lower_bound(x) - lower_bound(y)
+    p2 = lower_bound(x) - upper_bound(y)
+    p3 = upper_bound(x) - lower_bound(y)
+    p4 = upper_bound(x) - upper_bound(y)
+    return interval(min(p1, p2, p3, p4), max(p1, p2, p3, p4))
 
 
 def div_interval(x, y):
@@ -616,6 +620,7 @@ def div_interval(x, y):
     any value in y. Division is implemented as the multiplication of x by the
     reciprocal of y."""
     "*** YOUR CODE HERE ***"
+    assert not (lower_bound(y) <= 0 <= upper_bound(y)), "Interval Y including 0, cannot be divided."
     reciprocal_y = interval(1 / upper_bound(y), 1 / lower_bound(y))
     return mul_interval(x, reciprocal_y)
 
@@ -641,12 +646,26 @@ def check_par():
     True
     """
     r1 = interval(1, 1)  # Replace this line!
-    r2 = interval(1, 1)  # Replace this line!
+    r2 = interval(0.25, 9)  # Replace this line!
     return r1, r2
 
 
 def multiple_references_explanation():
-    return """The multiple reference problem..."""
+    return """The multiple reference problem...
+            The problem exists in the case of Par1,
+            The TRUE value within the interval, despite unknown to us, is a fixed value.
+            Using nested combinations that refer to the same interval twice might 
+            assume more than one TRUE values for the same interval. This assume could lead
+            to wrong intervals than they should have been.
+            
+            For example, as the value of i within the interval of [-1, 1], no value with i*i
+            will have a result of negative result, but by our mul_interval function, we will have
+            the interval of [-1, 1]. This is because of the wrong assumption of the ONE TRUE value
+            is allowed to be both -1 and 1 in different references of the same interval.
+            
+            Hence the program of par2 is better than par 1 because it never combines the same
+            interval more than once.
+            """
 
 
 def quadratic(x, a, b, c):

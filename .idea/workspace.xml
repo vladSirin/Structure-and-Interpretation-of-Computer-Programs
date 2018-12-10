@@ -4,10 +4,16 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="working on interval, the extra questions">
+    <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="start working on lab04 and adding the lecture pdfs of week 5 to git">
+      <change beforePath="$PROJECT_DIR$/.idea/Structure-and-Interpretation-of-Computer-Programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Structure-and-Interpretation-of-Computer-Programs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/hw05/.ok_history" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/hw05/.ok_history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/hw05/.ok_storage.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/hw05/.ok_storage.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/hw05/.ok_storage.dir" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/hw05/.ok_storage.dir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework/hw05/hw05.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/hw05/hw05.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/hw05/tests/mul_interval.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/hw05/tests/mul_interval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/hw05/tests/div_interval.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/hw05/tests/div_interval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/hw05/tests/sub_interval.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/hw05/tests/sub_interval.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,42 +22,61 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="2110328335">
+    <session id="430849945">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="3" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2920" />
-          <entry key="txt" value="49" />
+          <entry key="py" value="2690" />
+          <entry key="txt" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="49" />
-          <entry key="Python" value="2920" />
+          <entry key="PLAIN_TEXT" value="77" />
+          <entry key="Python" value="2690" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SICP-cs61x" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Labs/lab04/lab04_extra.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Homework/hw05/hw05.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
-              <caret line="610" column="20" selection-start-line="610" selection-start-column="20" selection-end-line="610" selection-end-column="20" />
-              <folding>
-                <marker date="1542721634199" expanded="true" signature="7014:7127" ph="..." />
-                <marker date="1542721634199" expanded="true" signature="13860:13873" ph="..." />
-              </folding>
+            <state relative-caret-position="444">
+              <caret line="666" column="36" selection-start-line="666" selection-start-column="36" selection-end-line="666" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -74,6 +99,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -96,74 +122,71 @@
         <option value="$PROJECT_DIR$/Labs/lab03/lab03.py" />
         <option value="$PROJECT_DIR$/Labs/lab03/lab03_extra.py" />
         <option value="$PROJECT_DIR$/Homework/hw04/hw04.py" />
+        <option value="$PROJECT_DIR$/Labs/lab04/lab04.py" />
+        <option value="$PROJECT_DIR$/Labs/lab04/lab04_extra.py" />
         <option value="$PROJECT_DIR$/Homework/hw05/hw05.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1057" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="984" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Default'; set:Default; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="SICP-cs61x" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Structure-and-Interpretation-of-Computer-Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="SICP-cs61x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SICP-cs61x" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Structure-and-Interpretation-of-Computer-Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="SICP-cs61x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SICP-cs61x" type="462c0819:PsiDirectoryNode" />
               <item name="Homework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Structure-and-Interpretation-of-Computer-Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="SICP-cs61x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SICP-cs61x" type="462c0819:PsiDirectoryNode" />
               <item name="Homework" type="462c0819:PsiDirectoryNode" />
               <item name="hw04" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Structure-and-Interpretation-of-Computer-Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="SICP-cs61x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SICP-cs61x" type="462c0819:PsiDirectoryNode" />
               <item name="Homework" type="462c0819:PsiDirectoryNode" />
               <item name="hw05" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Structure-and-Interpretation-of-Computer-Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="SICP-cs61x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SICP-cs61x" type="462c0819:PsiDirectoryNode" />
               <item name="Labs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Structure-and-Interpretation-of-Computer-Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="SICP-cs61x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SICP-cs61x" type="462c0819:PsiDirectoryNode" />
               <item name="Labs" type="462c0819:PsiDirectoryNode" />
-              <item name="lab03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Structure-and-Interpretation-of-Computer-Programs" type="462c0819:PsiDirectoryNode" />
-              <item name="Projects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Structure-and-Interpretation-of-Computer-Programs" type="462c0819:PsiDirectoryNode" />
-              <item name="Projects" type="462c0819:PsiDirectoryNode" />
-              <item name="hog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Structure-and-Interpretation-of-Computer-Programs" type="462c0819:PsiDirectoryNode" />
-              <item name="Week 3" type="462c0819:PsiDirectoryNode" />
+              <item name="lab04" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -172,10 +195,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/SourceTree/Structure-and-Interpretation-of-Computer-Programs/Homework/hw04/hw04.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -304,7 +326,7 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -524,28 +546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533743749945</updated>
     </task>
-    <task id="LOCAL-00031" summary="working on homework 4">
-      <created>1535207386834</created>
+    <task id="LOCAL-00031" summary="start working on lab04 and adding the lecture pdfs of week 5 to git">
+      <created>1536489934826</created>
       <option name="number" value="00031" />
       <option name="presentableId" value="LOCAL-00031" />
       <option name="project" value="LOCAL" />
-      <updated>1535207386834</updated>
+      <updated>1536489934826</updated>
     </task>
-    <task id="LOCAL-00032" summary="working on homework 5">
-      <created>1540822982439</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1540822982440</updated>
-    </task>
-    <task id="LOCAL-00033" summary="working on interval, the extra questions">
-      <created>1541429159559</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1541429159559</updated>
-    </task>
-    <option name="localTasksCounter" value="34" />
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -575,24 +583,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1057" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4894795" weight="0.26824033" />
-      <window_info id="Structure" order="1" sideWeight="0.51052046" side_tool="true" weight="0.14270386" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="top" auto_hide="true" x="238" y="158" width="954" height="462" id="Terminal" order="0" weight="0.33621755" />
+      <window_info auto_hide="true" content_ui="combo" x="1045" y="93" width="297" height="830" id="Project" order="0" sideWeight="0.4932015" weight="0.26168224" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.5067985" side_tool="true" visible="true" weight="0.1627907" />
+      <window_info id="Favorites" order="2" sideWeight="0.50061804" side_tool="true" weight="0.1631753" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" weight="0.19156626" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39831403" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32861805" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3275649" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003524" side_tool="true" weight="0.32771084" />
       <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.3297062" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32876712" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3256579" />
-      <window_info anchor="bottom" x="44" y="392" width="919" height="1048" id="Python Console" order="11" show_stripe_button="false" type="FLOATING" weight="0.29926237" />
+      <window_info anchor="bottom" x="44" y="0" width="919" height="900" id="Python Console" order="10" type="FLOATING" weight="0.29926237" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -663,9 +671,8 @@
     <MESSAGE value="working on the Lab 03" />
     <MESSAGE value="preparing homework 4" />
     <MESSAGE value="working on homework 4" />
-    <MESSAGE value="working on homework 5" />
-    <MESSAGE value="working on interval, the extra questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on interval, the extra questions" />
+    <MESSAGE value="start working on lab04 and adding the lecture pdfs of week 5 to git" />
+    <option name="LAST_COMMIT_MESSAGE" value="start working on lab04 and adding the lecture pdfs of week 5 to git" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sicp_new.jpeg">
@@ -744,13 +751,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/Berkeley CS61A [SICP]/Lib/operator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1332">
-          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/Berkeley CS61A [SICP]/Lib/operator.py" />
     <entry file="file://$PROJECT_DIR$/Labs/lab02/lab02_extra.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -802,19 +803,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Homework/hw04/hw04.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="172" column="7" lean-forward="true" selection-start-line="172" selection-start-column="7" selection-end-line="172" selection-end-column="7" />
+        <state relative-caret-position="818">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/lab04/lab04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/lab04/lab04_extra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Homework/hw05/hw05.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="610" column="20" selection-start-line="610" selection-start-column="20" selection-end-line="610" selection-end-column="20" />
-          <folding>
-            <marker date="1542721634199" expanded="true" signature="7014:7127" ph="..." />
-            <marker date="1542721634199" expanded="true" signature="13860:13873" ph="..." />
-          </folding>
+        <state relative-caret-position="444">
+          <caret line="666" column="36" selection-start-line="666" selection-start-column="36" selection-end-line="666" selection-end-column="36" />
         </state>
       </provider>
     </entry>
