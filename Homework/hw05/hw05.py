@@ -678,6 +678,28 @@ def quadratic(x, a, b, c):
     '0 to 10'
     """
     "*** YOUR CODE HERE ***"
+    # A quadratic function graph is a parabola
+    # So the extreme point is either the lowest or the highest
+    # This is based on the value of 'a', which is the first coefficient
+
+    point_0 = a * lower_bound(x) * lower_bound(x) + b * lower_bound(x) + c
+    point_1 = a * upper_bound(x) * upper_bound(x) + b * upper_bound(x) + c
+    if a == 0:
+        return interval(min(point_1, point_0), max(point_1, point_0))
+    ext_x = -b / (2 * a)
+    ext_point = a * ext_x * ext_x + b * ext_x + c
+
+    # check if the first coefficient is positive
+    if a < 0:  # if so check if the extreme point is inside the interval of 'x'
+        if lower_bound(x) <= ext_point <= upper_bound(x):  # extreme point is the upper bound of the return interval
+            return interval(min(point_0, point_1), ext_point)
+        else:
+            return interval(min(point_0, point_1), max(point_1, point_0))
+    else:  # means the first coefficient is negative
+        if lower_bound(x) <= ext_point <= upper_bound(x):  # extreme point is the lower bound of the return interval
+            return interval(ext_point, max(point_0, point_1))
+        else:
+            return interval(min(point_1, point_0), max(point_0, point_1))
 
 
 def polynomial(x, c):
@@ -692,3 +714,47 @@ def polynomial(x, c):
     '18.0 to 23.0'
     """
     "*** YOUR CODE HERE ***"
+    # The hint is using the newton update method 'update(x): x - f(x)/df(x)'
+    # Define the polynomial function then use an iterative approach by newton method
+    # Walk through the interval in this way and find the max and mins
+    interval_max = -float('inf')
+    interval_min = float('inf')
+
+    delta = upper_bound(x)
+    find_interval = newton_update(poly_f, d_poly_f)
+    while delta >= lower_bound(x):
+        if poly_f(delta, c) > interval_max:
+            interval_max = poly_f(delta, c)
+        elif poly_f(delta, c) < interval_min:
+            interval_min = poly_f(delta, c)
+        delta = find_interval(delta, c)
+    return interval(interval_min, interval_max)
+
+
+# HELP FUNCTIONS FOR LAST QUESTION: POLYNOMIAL
+
+def newton_update(f, df):
+    """Newton method to update the value by the differentiation"""
+
+    def update(x, c):
+        return x - f(x, c) / df(x, c)
+
+    return update
+
+
+def poly_f(x, c):
+    """Calculate the value of the f(x) based on the polynomial method provided by the question:
+    f(t) = c[k-1] * pow(t, k-1) + c[k-2] * pow(t, k-2) + ... + c[0] * 1
+    """
+    f_x = 0
+    for i in range(len(c)):
+        f_x += pow(x, i) * c[i]
+    return f_x
+
+
+def d_poly_f(x, c):
+    """Derivative function of poly_f"""
+    df_x = 0
+    for i in range(1, len(c)):
+        df_x += pow(x, i - 1) * c[i] * i
+    return df_x
