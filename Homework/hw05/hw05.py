@@ -715,23 +715,51 @@ def polynomial(x, c):
     """
     "*** YOUR CODE HERE ***"
     # The hint is using the newton update method 'update(x): x - f(x)/df(x)'
-    # Define the polynomial function then use an iterative approach by newton method
-    # Walk through the interval in this way and find the max and mins
-    interval_max = -float('inf')
-    interval_min = float('inf')
-
-    delta = upper_bound(x)
-    find_interval = newton_update(poly_f, d_poly_f)
-    while delta >= lower_bound(x):
-        if poly_f(delta, c) > interval_max:
-            interval_max = poly_f(delta, c)
-        elif poly_f(delta, c) < interval_min:
-            interval_min = poly_f(delta, c)
-        delta = find_interval(delta, c)
-    return interval(interval_min, interval_max)
+    # First we need to understand that a polynomial graph is a curve with several turning points
+    # Then we need to find those turning points and see whether the interval 'x' includes any turning points
+    x_zeros = find_zeros(d_poly_f, dd_poly_f, c)
+    p_lower = poly_f(lower_bound(x), c)
+    p_upper = poly_f(upper_bound(x), c)
+    num, zeros_in = 0, []
+    for i in x_zeros:
+        if lower_bound(x) <= i <= upper_bound(x):
+            num += 1
+            zeros_in.append(i)
+    # If it doesn't, then p(x) is proportional to 'x', thus comparing lower and upper bounds would solve it
+    if num == 0:
+        return interval(min(p_lower, p_upper), max(p_lower, p_upper))
+    # If it includes only one, then solve it use the quadratic way
+    elif num == 1:
+        p_t = poly_f(zeros_in[0], c)
+        return interval(min(p_lower, p_upper, p_t), max(p_lower, p_upper, p_t))
+    # If it includes more than one, then max and min must in those points, just comparing the p(x) of them.
+    elif num > 1:
+        min_pt = float("inf")
+        max_pt = -float("inf")
+        for zero in zeros_in:
+            if poly_f(zero, c) > max_pt:
+                max_pt = poly_f(zero, c)
+            if poly_f(zero, c) < min_pt:
+                min_pt = poly_f(zero, c)
+        return interval(min_pt, max_pt)
 
 
 # HELP FUNCTIONS FOR LAST QUESTION: POLYNOMIAL
+
+def find_zeros(f, df, c, guess=1.0):
+    """Keep using update(guess) function until f(x) = 0 is true"""
+    max_zeros = len(c) - 2
+    zeros = []
+    while len(zeros) < max_zeros:
+        if abs(f(guess, c)) < 1e-10:
+            if guess not in zeros:
+                zeros.append(guess)
+        if newton_update(f, df)(guess, c) == guess:
+            guess = df(guess, c)
+        else:
+            guess = newton_update(f, df)(guess, c)
+    return zeros
+
 
 def newton_update(f, df):
     """Newton method to update the value by the differentiation"""
@@ -758,3 +786,11 @@ def d_poly_f(x, c):
     for i in range(1, len(c)):
         df_x += pow(x, i - 1) * c[i] * i
     return df_x
+
+
+def dd_poly_f(x, c):
+    """Derivative of d_poly_f"""
+    ddf_x = 0
+    for i in range(2, len(c)):
+        ddf_x += pow(x, i - 2) * c[i] * i * (i - 1)
+    return ddf_x

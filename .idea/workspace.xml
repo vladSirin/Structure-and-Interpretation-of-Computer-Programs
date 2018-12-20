@@ -4,7 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="Working on the extra questions of week 05&#10;Did understand the multi reference problems">
+    <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="working on the final question polynomial">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/xiaochensong.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework/hw05/.ok_history" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/hw05/.ok_history" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework/hw05/.ok_storage.bak" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/hw05/.ok_storage.bak" afterDir="false" />
@@ -35,15 +36,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="222" />
-          <entry key="py" value="5257" />
-          <entry key="txt" value="169" />
+          <entry key="Python Console" value="529" />
+          <entry key="py" value="7333" />
+          <entry key="txt" value="212" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="169" />
-          <entry key="Python" value="5479" />
+          <entry key="PLAIN_TEXT" value="212" />
+          <entry key="Python" value="7862" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -75,12 +76,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Homework/hw05/hw05.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="739" column="18" selection-start-line="739" selection-start-column="18" selection-end-line="739" selection-end-column="18" />
+            <state relative-caret-position="505">
+              <caret line="759" column="32" lean-forward="true" selection-start-line="759" selection-start-column="32" selection-end-line="759" selection-end-column="32" />
               <folding>
-                <marker date="1544978483781" expanded="true" signature="20467:20536" ph="..." />
-                <marker date="1544978483781" expanded="true" signature="20634:20639" ph="..." />
-                <marker date="1544978483781" expanded="true" signature="20919:20960" ph="..." />
+                <marker date="1545324408330" expanded="true" signature="21599:21602" ph="..." />
+                <marker date="1545324408330" expanded="true" signature="21627:21696" ph="..." />
+                <marker date="1545324408330" expanded="true" signature="21794:21799" ph="..." />
+                <marker date="1545324408330" expanded="true" signature="22079:22120" ph="..." />
+                <marker date="1545324408330" expanded="true" signature="22243:22244" ph="..." />
               </folding>
             </state>
           </provider>
@@ -136,6 +139,23 @@
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="984" />
     <option name="height" value="900" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -203,7 +223,7 @@
     <property name="SearchEverywhereHistoryKey" value="range&#9;null&#9;null" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -566,7 +586,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544457651642</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="working on the final question polynomial">
+      <created>1544980098156</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1544980098156</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -597,10 +624,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="top" auto_hide="true" x="238" y="158" width="954" height="462" id="Terminal" order="0" weight="0.33621755" />
       <window_info auto_hide="true" content_ui="combo" x="1045" y="93" width="297" height="830" id="Project" order="0" sideWeight="0.4932015" weight="0.26168224" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.5067985" side_tool="true" visible="true" weight="0.1627907" />
+      <window_info id="Structure" order="1" sideWeight="0.5067985" side_tool="true" visible="true" weight="0.1627907" />
       <window_info id="Favorites" order="2" sideWeight="0.50061804" side_tool="true" weight="0.1631753" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -609,10 +637,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3275649" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003524" side_tool="true" weight="0.32771084" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003524" side_tool="true" weight="0.3275649" />
       <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.3297062" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32876712" />
-      <window_info anchor="bottom" x="317" y="23" width="919" height="797" id="Python Console" order="10" type="FLOATING" weight="0.29926237" />
+      <window_info anchor="bottom" x="363" y="47" width="919" height="797" id="Python Console" order="10" type="FLOATING" weight="0.29926237" />
       <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -687,7 +715,8 @@
     <MESSAGE value="working on homework 4" />
     <MESSAGE value="start working on lab04 and adding the lecture pdfs of week 5 to git" />
     <MESSAGE value="Working on the extra questions of week 05&#10;Did understand the multi reference problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on the extra questions of week 05&#10;Did understand the multi reference problems" />
+    <MESSAGE value="working on the final question polynomial" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on the final question polynomial" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -848,12 +877,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Homework/hw05/hw05.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="739" column="18" selection-start-line="739" selection-start-column="18" selection-end-line="739" selection-end-column="18" />
+        <state relative-caret-position="505">
+          <caret line="759" column="32" lean-forward="true" selection-start-line="759" selection-start-column="32" selection-end-line="759" selection-end-column="32" />
           <folding>
-            <marker date="1544978483781" expanded="true" signature="20467:20536" ph="..." />
-            <marker date="1544978483781" expanded="true" signature="20634:20639" ph="..." />
-            <marker date="1544978483781" expanded="true" signature="20919:20960" ph="..." />
+            <marker date="1545324408330" expanded="true" signature="21599:21602" ph="..." />
+            <marker date="1545324408330" expanded="true" signature="21627:21696" ph="..." />
+            <marker date="1545324408330" expanded="true" signature="21794:21799" ph="..." />
+            <marker date="1545324408330" expanded="true" signature="22079:22120" ph="..." />
+            <marker date="1545324408330" expanded="true" signature="22243:22244" ph="..." />
           </folding>
         </state>
       </provider>
