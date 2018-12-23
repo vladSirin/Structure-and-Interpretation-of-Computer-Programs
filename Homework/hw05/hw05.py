@@ -747,7 +747,11 @@ def polynomial(x, c):
 # HELP FUNCTIONS FOR LAST QUESTION: POLYNOMIAL
 
 def find_zeros(f, df, c, guess=1.0):
-    """Keep using update(guess) function until f(x) = 0 is true"""
+    """
+    Keep using update(guess) function until f(x) = 0 is true.
+    THIS PART IS ACTUALLY NOT CORRECT, THE RIGHT WAY IS TO USE BAIRSTOW METHOD, PLS WIKI IT IF YOU WANT TO KNOW
+    'https://en.wikipedia.org/wiki/Bairstow's_method'
+    """
     max_zeros = len(c) - 2
     zeros = []
     while len(zeros) < max_zeros:
