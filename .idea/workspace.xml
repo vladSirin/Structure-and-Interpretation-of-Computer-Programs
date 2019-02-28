@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="working on interval, the extra questions">
+      <change beforePath="$PROJECT_DIR$/.idea/Structure-and-Interpretation-of-Computer-Programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Structure-and-Interpretation-of-Computer-Programs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,10 +22,10 @@
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -38,19 +40,51 @@
           <entry key="Python" value="2923" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="4" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Homework/hw05/hw05.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="644" column="17" selection-start-line="644" selection-start-column="17" selection-end-line="644" selection-end-column="17" />
+            <state relative-caret-position="14784">
+              <caret line="704" column="4" selection-start-line="704" selection-start-column="4" selection-end-line="704" selection-end-column="4" />
               <folding>
-                <marker date="1543974124664" expanded="true" signature="7014:7127" ph="..." />
-                <marker date="1543974124664" expanded="true" signature="13860:13873" ph="..." />
+                <marker date="1545468082314" expanded="true" signature="7014:7127" ph="..." />
+                <marker date="1545468082314" expanded="true" signature="13860:13873" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Homework/hw03/hw03.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2415">
+              <caret line="295" selection-start-line="295" selection-end-line="295" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Projects/maps/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Homework/hw04/hw04.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="181" column="4" selection-start-line="181" selection-start-column="4" selection-end-line="181" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -96,6 +130,7 @@
         <option value="$PROJECT_DIR$/Labs/lab03/lab03_extra.py" />
         <option value="$PROJECT_DIR$/Homework/hw04/hw04.py" />
         <option value="$PROJECT_DIR$/Homework/hw05/hw05.py" />
+        <option value="$PROJECT_DIR$/Projects/maps/utils.py" />
       </list>
     </option>
   </component>
@@ -111,7 +146,31 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Structure-and-Interpretation-of-Computer-Programs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Structure-and-Interpretation-of-Computer-Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Structure-and-Interpretation-of-Computer-Programs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Structure-and-Interpretation-of-Computer-Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+              <item name="maps" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/SourceTree/Structure-and-Interpretation-of-Computer-Programs/Homework/hw04/hw04.py" />
@@ -532,9 +591,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4894795" weight="0.26824033" />
-      <window_info id="Structure" order="1" sideWeight="0.51052046" side_tool="true" weight="0.14270386" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48793858" visible="true" weight="0.26821542" />
+      <window_info id="Structure" order="1" sideWeight="0.5120614" side_tool="true" visible="true" weight="0.26821542" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -737,13 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Homework/hw03/hw03.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5310">
-          <caret line="295" selection-start-line="295" selection-end-line="295" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Projects/hog/hog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -765,21 +818,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Homework/hw04/hw04.py">
+    <entry file="file://$PROJECT_DIR$/Homework/hw05/hw05.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="172" column="7" lean-forward="true" selection-start-line="172" selection-start-column="7" selection-end-line="172" selection-end-column="7" />
+        <state relative-caret-position="14784">
+          <caret line="704" column="4" selection-start-line="704" selection-start-column="4" selection-end-line="704" selection-end-column="4" />
+          <folding>
+            <marker date="1545468082314" expanded="true" signature="7014:7127" ph="..." />
+            <marker date="1545468082314" expanded="true" signature="13860:13873" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Homework/hw05/hw05.py">
+    <entry file="file://$PROJECT_DIR$/Homework/hw04/hw04.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="644" column="17" selection-start-line="644" selection-start-column="17" selection-end-line="644" selection-end-column="17" />
-          <folding>
-            <marker date="1543974124664" expanded="true" signature="7014:7127" ph="..." />
-            <marker date="1543974124664" expanded="true" signature="13860:13873" ph="..." />
-          </folding>
+        <state relative-caret-position="287">
+          <caret line="181" column="4" selection-start-line="181" selection-start-column="4" selection-end-line="181" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework/hw03/hw03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2415">
+          <caret line="295" selection-start-line="295" selection-end-line="295" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/maps/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
         </state>
       </provider>
     </entry>
