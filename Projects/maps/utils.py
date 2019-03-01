@@ -16,7 +16,7 @@ def map_and_filter(s, map_fn, filter_fn):
     [1, 9, 25]
     """
     # BEGIN Question 0
-    return ['REPLACE THIS WITH YOUR LIST COMPREHENSION']
+    return [map_fn(a) for a in s if filter_fn(a)]
     # END Question 0
 
 
@@ -30,7 +30,7 @@ def key_of_min_value(d):
     'c'
     """
     # BEGIN Question 0
-    return min('REPLACE THIS WITH YOUR SOLUTION')
+    return min(d, key=lambda x: d[x])
     # END Question 0
 
 
@@ -65,6 +65,10 @@ def enumerate(s, start=0):
     """
     # BEGIN Question 0
     "*** YOUR CODE HERE ***"
+    final = []
+    for x, y in zip(range(len(s)), s):
+        final.append([x+start, y])
+    return final
     # END Question 0
 
 

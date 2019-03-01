@@ -4,10 +4,21 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="working on interval, the extra questions">
-      <change beforePath="$PROJECT_DIR$/.idea/Structure-and-Interpretation-of-Computer-Programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Structure-and-Interpretation-of-Computer-Programs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="Adding the start up files of project Map.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/maps/.ok_history" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/.ok_history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/maps/tests/00.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/tests/00.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/maps/tests/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/tests/01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/maps/tests/02.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/tests/02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/maps/tests/03.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/tests/03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/maps/tests/04.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/tests/04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/maps/tests/05.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/tests/05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/maps/tests/06.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/tests/06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/maps/tests/07.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/tests/07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/maps/tests/08.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/tests/08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/maps/tests/09.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/tests/09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/maps/tests/10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/tests/10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/maps/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +47,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="49" />
-          <entry key="Python" value="2923" />
+          <entry key="PLAIN_TEXT" value="105" />
+          <entry key="Python" value="3103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -55,8 +66,8 @@
             <state relative-caret-position="14784">
               <caret line="704" column="4" selection-start-line="704" selection-start-column="4" selection-end-line="704" selection-end-column="4" />
               <folding>
-                <marker date="1545468082314" expanded="true" signature="7014:7127" ph="..." />
-                <marker date="1545468082314" expanded="true" signature="13860:13873" ph="..." />
+                <marker date="1551366058677" expanded="true" signature="7014:7127" ph="..." />
+                <marker date="1551366058677" expanded="true" signature="13860:13873" ph="..." />
               </folding>
             </state>
           </provider>
@@ -74,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Projects/maps/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="588">
+              <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -177,6 +188,116 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/venv" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Homework/hw05/hw05.py</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -560,7 +681,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543731547763</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Adding the start up files of project Map.">
+      <created>1551366131066</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1551366131066</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -690,7 +818,8 @@
     <MESSAGE value="working on homework 4" />
     <MESSAGE value="working on homework 5" />
     <MESSAGE value="working on interval, the extra questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on interval, the extra questions" />
+    <MESSAGE value="Adding the start up files of project Map." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the start up files of project Map." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sicp_new.jpeg">
@@ -823,8 +952,8 @@
         <state relative-caret-position="14784">
           <caret line="704" column="4" selection-start-line="704" selection-start-column="4" selection-end-line="704" selection-end-column="4" />
           <folding>
-            <marker date="1545468082314" expanded="true" signature="7014:7127" ph="..." />
-            <marker date="1545468082314" expanded="true" signature="13860:13873" ph="..." />
+            <marker date="1551366058677" expanded="true" signature="7014:7127" ph="..." />
+            <marker date="1551366058677" expanded="true" signature="13860:13873" ph="..." />
           </folding>
         </state>
       </provider>
@@ -845,8 +974,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Projects/maps/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="588">
+          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
         </state>
       </provider>
     </entry>
