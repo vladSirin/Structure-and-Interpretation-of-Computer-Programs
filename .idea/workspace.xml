@@ -4,21 +4,11 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="Adding the start up files of project Map.">
+    <list default="true" id="9144e3d4-cc24-4951-bda5-b8e2258f4cfd" name="Default" comment="Finish problem set 0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/hw03/hw03.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/hw03/hw03.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projects/maps/.ok_history" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/.ok_history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/maps/tests/00.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/tests/00.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/maps/tests/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/tests/01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/maps/tests/02.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/tests/02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/maps/tests/03.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/tests/03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/maps/tests/04.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/tests/04.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/maps/tests/05.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/tests/05.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/maps/tests/06.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/tests/06.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/maps/tests/07.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/tests/07.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/maps/tests/08.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/tests/08.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/maps/tests/09.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/tests/09.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/maps/tests/10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/tests/10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/maps/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/maps/ok" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/maps/ok" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,13 +20,14 @@
     <session id="2110328335">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.open.time.8" value="4" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -47,55 +38,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="105" />
-          <entry key="Python" value="3103" />
+          <entry key="PLAIN_TEXT" value="131" />
+          <entry key="Python" value="3141" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="4" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homework/hw05/hw05.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14784">
-              <caret line="704" column="4" selection-start-line="704" selection-start-column="4" selection-end-line="704" selection-end-column="4" />
-              <folding>
-                <marker date="1551366058677" expanded="true" signature="7014:7127" ph="..." />
-                <marker date="1551366058677" expanded="true" signature="13860:13873" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homework/hw03/hw03.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2415">
-              <caret line="295" selection-start-line="295" selection-end-line="295" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Projects/maps/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homework/hw04/hw04.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="181" column="4" selection-start-line="181" selection-start-column="4" selection-end-line="181" selection-end-column="4" />
+            <state relative-caret-position="-1113">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -135,18 +95,19 @@
         <option value="$PROJECT_DIR$/Labs/lab02/lab02.py" />
         <option value="$PROJECT_DIR$/Labs/lab02/lab02_extra.py" />
         <option value="$PROJECT_DIR$/Week 3/ex.py" />
-        <option value="$PROJECT_DIR$/Homework/hw03/hw03.py" />
         <option value="$PROJECT_DIR$/Projects/hog/hog.py" />
         <option value="$PROJECT_DIR$/Labs/lab03/lab03.py" />
         <option value="$PROJECT_DIR$/Labs/lab03/lab03_extra.py" />
         <option value="$PROJECT_DIR$/Homework/hw04/hw04.py" />
         <option value="$PROJECT_DIR$/Homework/hw05/hw05.py" />
+        <option value="$PROJECT_DIR$/Homework/hw03/hw03.py" />
         <option value="$PROJECT_DIR$/Projects/maps/utils.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1191" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1218" />
     <option name="height" value="1322" />
   </component>
@@ -158,7 +119,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,123 +141,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/SourceTree/Structure-and-Interpretation-of-Computer-Programs/Homework/hw04/hw04.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project-Red" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Homework/hw05/hw05.py</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -688,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551366131066</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Finish problem set 0">
+      <created>1551453826159</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1551453826159</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -721,8 +579,8 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48793858" visible="true" weight="0.26821542" />
-      <window_info id="Structure" order="1" sideWeight="0.5120614" side_tool="true" visible="true" weight="0.26821542" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48026314" visible="true" weight="0.16631468" />
+      <window_info id="Structure" order="1" sideWeight="0.5197368" side_tool="true" visible="true" weight="0.16631468" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -819,7 +677,8 @@
     <MESSAGE value="working on homework 5" />
     <MESSAGE value="working on interval, the extra questions" />
     <MESSAGE value="Adding the start up files of project Map." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the start up files of project Map." />
+    <MESSAGE value="Finish problem set 0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish problem set 0" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sicp_new.jpeg">
@@ -947,9 +806,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Homework/hw03/hw03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5355">
+          <caret line="255" column="32" selection-start-line="255" selection-start-column="32" selection-end-line="255" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework/hw04/hw04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3801">
+          <caret line="181" column="4" selection-start-line="181" selection-start-column="4" selection-end-line="181" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Homework/hw05/hw05.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14784">
+        <state relative-caret-position="-1280">
           <caret line="704" column="4" selection-start-line="704" selection-start-column="4" selection-end-line="704" selection-end-column="4" />
           <folding>
             <marker date="1551366058677" expanded="true" signature="7014:7127" ph="..." />
@@ -958,24 +831,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Homework/hw04/hw04.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="181" column="4" selection-start-line="181" selection-start-column="4" selection-end-line="181" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework/hw03/hw03.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2415">
-          <caret line="295" selection-start-line="295" selection-end-line="295" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Projects/maps/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        <state relative-caret-position="-1113">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>

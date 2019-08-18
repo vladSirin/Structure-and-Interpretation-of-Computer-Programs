@@ -255,7 +255,6 @@ def church_to_int(n):
     "*** YOUR CODE HERE ***"
     return n(lambda x: x + 1)(0)
 
-
 def add_church(m, n):
     """Return the Church numeral for m + n, for Church numerals m and n.
 
